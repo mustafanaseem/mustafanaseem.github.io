@@ -1,0 +1,145 @@
+/****************************************
+    General
+*****************************************/
+
+html,
+body,
+.container {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  /* background: #252241; */
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.primary-text {
+  font-weight: 700;
+}
+
+.secondary-text {
+  font-weight: 400;
+}
+
+.ancillary-text {
+  font-weight: 400;
+}
+
+/* TODO: find replacement Bootstrap class. */
+fieldset {
+  width: 100%;
+}
+
+a {
+  color: #002e5f;
+}
+
+a:hover {
+  color: #002e5f;
+}
+
+a:active {
+  color: #002e5f;
+}
+
+#contact {
+  margin: 5%;
+  margin-left: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.project {
+  /* margin-top: 5%; */
+  margin-bottom: 7%;
+}
+
+/****************************************
+    Images
+*****************************************/
+
+.parawrap {
+  float: left; 
+  margin: 4px 10px 0px 0px; 
+  border: 1px solid #000000;
+}
+
+#map {
+  float: right;
+}
+
+/****************************************
+    Bootstrap Grid
+*****************************************/
+
+.container {
+  width: 100%;
+  padding: 15px 0 0 0;
+  max-width: 90%;
+}
+
+.row {
+  height: 100%;
+  margin: 15px 0px;
+}
+
+.row .no-float {
+  float: none;
+  width: 100%;
+}
+
+.row-sm {
+  height: 10%;
+  margin-bottom: 1%;
+}
+
+.row-md {
+  height: 70%;
+}
+
+.row-lg {
+  margin-top: 12%;
+}
+
+/****************************************
+    Navigation Bar
+*****************************************/
+
+.navbar-default {
+  background: #002e5f;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  color: white;
+}
+
+/****************************************
+    Footer
+*****************************************/
+
+footer {
+  background: #002e5f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
