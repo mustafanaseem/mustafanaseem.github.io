@@ -2,5 +2,5 @@
 title: "Super Abbu: Hotline for Expectant Dads"
 collection: projects
 permalink: /project/2020-04-27-super-abbu
-excerpt: 'The Har Zindagi pilot aims to achieve significant performance improvements in immunization administration, such as augmented uptake, retention and quality of immunization, by engaging with disadvantaged communities and using low-cost technology to cohere the lower layers of the health system with the managerial layer.'
+excerpt: 'A pilot program designed to provide a platform where men could ask questions and share stories about pregnancy and childcare.'
 ---
