@@ -1,20 +1,20 @@
 ---
-title: "Teaching experience 2"
+title: "Design for Social Impact"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Graduate course"
+permalink: /teaching/design-social-impact
+venue: "University of Michigan, School of Information"
+date: 2023-01-01
+location: "Ann Arbor, MI"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+This course explores how technology and design can be leveraged to address social challenges, with a focus on ICTD and global development contexts.
 
-Heading 1
-======
+**Topics Covered:**
+- Participatory design methods
+- ICTD frameworks and case studies
+- Designing for low-resource settings
+- Ethical considerations in social impact design
+- Community-based research methods
 
-Heading 2
-======
-
-Heading 3
-======
+**Student Projects:** Students work with community partners on real-world design challenges.
