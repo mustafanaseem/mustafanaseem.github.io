@@ -51,9 +51,11 @@ Batool, A., Toyama, K., Veinot, T., Fatima, B., & **Naseem, M.** (2021). Detecti
 
 ## 2020
 
-**Naseem, M.**, Younas, F., & Mustafa, M. (2020). Designing Digital Safe Spaces for Peer Support and Connectivity in Patriarchal Contexts. *Proceedings of the ACM on Human-Computer Interaction, 4*(CSCW2), 1-24. **[Diversity and Inclusion Award]**
+**Naseem, M.**, Younas, F., & Mustafa, M. (2020). Designing Digital Safe Spaces for Peer Support and Connectivity in Patriarchal Contexts. *Proceedings of the ACM on Human-Computer Interaction, 4*(CSCW2), 1-24.
+<br>🏆 **CSCW 2020 Diversity and Inclusion Award**
 
-**Naseem, M.**, Saleem, B., St-Onge Ahmad, S., Chen, J., & Raza, A. A. (2020). An Empirical Comparison of Technologically Mediated Advertising in Under-Connected Populations. *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems*, 1-13. **[Best Paper Honorable Mention]**
+**Naseem, M.**, Saleem, B., St-Onge Ahmad, S., Chen, J., & Raza, A. A. (2020). An Empirical Comparison of Technologically Mediated Advertising in Under-Connected Populations. *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems*, 1-13.
+<br>🏆 **CHI 2020 Best Paper Honorable Mention**
 
 Younas, F., **Naseem, M.**, & Mustafa, M. (2020). Patriarchy and social media: Women only Facebook groups as safe spaces for support seeking in Pakistan. *Proceedings of the 2020 International Conference on Information and Communication Technologies and Development*, 1-11.
 
