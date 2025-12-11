@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<a href="/files/Naseem_CV.pdf" class="btn btn--primary btn--large" download>Download CV (PDF)</a>
+<a href="/files/Mustafa Naseem CV_Dec25.pdf" class="btn btn--primary btn--large" download>Download CV (PDF)</a>
 
 ---
 
