@@ -8,32 +8,74 @@ redirect_from:
   - /about.html
 ---
 
-I am a **Clinical Associate Professor at the University of Michigan School of Information**. I received my PhD in Design Science from the University of Michigan (2025), a Masters in Information and Communication Technologies for Development (ICTD) from the University of Colorado Boulder on a Fulbright Scholarship, and a B.E. in Electrical Engineering from NUST, Pakistan.
+<style>
+.about-section {
+    margin-bottom: 30px;
+}
 
-My research integrates **AI/ML and Large Language Models** with **Information and Communication Technology for Development (ICTD)** to address global health challenges. I specialize in developing AI-powered solutions for Maternal and Child Health (MCH) in low- and middle-income countries (LMICs), with over 10 years of field experience.
+.about-section p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+    color: #333;
+}
 
-## Current Research Focus
+.supported-by {
+    margin-bottom: 30px;
+}
 
-- **Clinical AI Applications**: Developing empathy applicability frameworks for chatbots in healthcare settings
-- **Responsible AI in Global Health**: Ensuring equitable, culturally-adaptive AI deployment with focus on bias mitigation
-- **Voice-based Health Systems**: Deployed speech-based health platforms connecting underserved populations to healthcare information
-- **Digital Safety**: Designing interventions for technology-facilitated gender-based violence
+.award {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
 
-## Research Themes
+.award-year {
+    color: #0066cc;
+    font-weight: 600;
+}
 
-My work spans three interconnected themes:
+.highlight-box {
+    background-color: #f0f7ff;
+    padding: 20px;
+    border-radius: 6px;
+    border-left: 4px solid #0066cc;
+    margin-top: 30px;
+}
 
-1. **Rethinking Information Access at the Last Mile** - Voice-first platforms for low-literate populations
-2. **Designing Digital Safety in Patriarchal Contexts** - Understanding how women create safe digital experiences
-3. **From Individual to Collective: Digital Adaptation** - Community-level approaches to digital literacy
+.highlight-box p {
+    margin-bottom: 0;
+    font-size: 15px;
+}
 
-My research has directly touched over **5 million lives** through interventions ranging from immunization systems deployed at provincial scale to COVID-19 information platforms serving tens of thousands of low-literate users.
+.highlight-box a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+}
 
-## Recognition
+.highlight-box a:hover {
+    text-decoration: underline;
+}
+</style>
 
-- 2025 Google Academic Research Award
-- CHI 2020 Best Paper Honorable Mention
-- CSCW 2020 Diversity and Inclusion Award
-- Joan Durrance Community Engagement Award (2021)
-- Rolex Young Laureate Award Finalist (2016)
-- Fulbright Scholar (2011-2013)
+<div class="about-section">
+<p>I design information systems for marginalized communities where access is constrained—not by devices, but by literacy barriers, patriarchal surveillance, displacement, and systemic inequality. I work primarily in South Asia and with diaspora communities in the US, partnering with governments, NGOs, and community organizations to build solutions that account for local power dynamics rather than importing Western-centric "fixes."</p>
+
+<p>My work bridges critical analysis of structural inequality with pragmatic system design. This means understanding whether a two-PIN system actually protects women when their husbands demand access, how to make voice-based systems work on feature phones, where screenshots will leak, and what "anonymity" really means in a community of 5,000 people. It means design that acknowledges constraint rather than ignoring it.</p>
+</div>
+
+<div class="supported-by">
+<p><strong>Supported by:</strong> Bill and Melinda Gates Foundation, NSF, NIH, USAID, National Academies of Science, Engineering, and Medicine, DFID, and UNICEF.</p>
+</div>
+
+<div class="about-section">
+<div class="award"><span class="award-year">2025</span> — Google Academic Research Award</div>
+<div class="award"><span class="award-year">2021</span> — Joan Durrance Community Engagement Award, University of Michigan</div>
+<div class="award"><span class="award-year">2020</span> — Best Paper Honorable Mention, CHI</div>
+<div class="award"><span class="award-year">2020</span> — Diversity and Inclusion Award, CSCW</div>
+<div class="award"><span class="award-year">2016</span> — Rolex Young Laureate Award Finalist</div>
+<div class="award"><span class="award-year">2011–2013</span> — Fulbright Scholar</div>
+</div>
+
+<div class="highlight-box">
+<p><strong>I'm hiring postdocs</strong> interested in digital safety, health information systems, and design justice. <a href="mailto:mnaseem@umich.edu">Get in touch</a> if you're passionate about rigorous, participatory research with marginalized communities.</p>
+</div>
