@@ -46,6 +46,7 @@ redirect_from:
 </div>
 
 <div class="about-section">
+<p><strong style="color: #0066cc;">Awards:</strong></p>
 <div class="award"><span class="award-year">2025</span> — Google Academic Research Award</div>
 <div class="award"><span class="award-year">2021</span> — Joan Durrance Community Engagement Award, University of Michigan</div>
 <div class="award"><span class="award-year">2020</span> — Best Paper Honorable Mention, CHI</div>
