@@ -5,84 +5,171 @@ permalink: /research/
 author_profile: true
 ---
 
-<p>My research addresses a fundamental question: <strong>How can we design digital technologies to improve health and wellbeing for the world's most under-resourced communities?</strong></p>
+{% include base_path %}
 
-<p>When it comes to the "last mile" of information, we have failed spectacularly. Billions of people with low literacy and limited internet are excluded from a digital world that remains resolutely textual. Over twelve years, I have pursued this question through three interconnected themes.</p>
+<style>
+.intro {
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+}
 
-<hr>
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 16px;
+    color: #0051a5;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #0051a5;
+}
 
-<h2>Theme 1: Rethinking Information Access at the Last Mile</h2>
+.theme-description {
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.8;
+}
 
-<p>The central problem is not solely distribution; it is distributing information that users can <em>use</em>, <em>trust</em>, and <em>act upon</em>. For low-literate populations, Interactive Voice Response (IVR) systems offer promise, yet prior approaches faced a tradeoff: rigid menus provide poor engagement while entertainment platforms deliver no health benefits.</p>
+h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
 
-<h3>Key Projects</h3>
-<ul>
-  <li><strong>Super Abbu</strong>: A telephone hotline where 20,000 expectant fathers in Pakistan asked doctors maternal health questions. The platform revealed that spatial distance and anonymity enabled men to ask deeply taboo questions they would never ask in person.</li>
-  <li><strong>Baang</strong>: A speech-based social media platform that delivered COVID-19 information to 12,500 users. Through this work, I developed the <em>Health Information Engagement Stack</em>, revealing why platforms optimized for viral growth systematically fail at health outcomes.</li>
-  <li><strong>Net Exposure to Accurate Health Content</strong>: A new metric measuring total accurate information consumed minus misinformation, rather than just reduction rates.</li>
+.subtheme-summary {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.papers {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+
+.papers li {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.papers li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.papers li a:hover {
+    text-decoration: underline;
+}
+</style>
+
+<div class="intro">
+<p>My work integrates critical analysis of structural inequality with pragmatic system design, grounded in over a decade of collaboration with marginalized communities in South Asia and diaspora communities in the US. Below are the key research areas and representative publications.</p>
+</div>
+
+<h2>Voice-Based Health Information Systems for Low-Literate Populations</h2>
+
+<div class="theme-description">
+Designing and evaluating speech-based platforms that bypass literacy and device barriers to connect underserved populations (particularly expecting fathers, mothers, and low-income patients) with health information and peer support.
+</div>
+
+<h3>Maternal and Child Health via Voice Platforms</h3>
+<div class="subtheme-summary">
+We identified demand for increased paternal engagement in maternal health, finding that men lack knowledge about their wives' health details and both genders perceive insufficient conversation (Ahmad et al. 2022), and we demonstrated that speech-based entertainment platforms are significantly more effective than text-based social media for reaching and retaining low-literate users while delivering health information (Naseem et al. 2020; St-Onge Ahmad et al. 2017; Kharal et al. 2017).
+</div>
+<ul class="papers">
+    <li>Naseem et al. (2020) — An Empirical Comparison of Technologically Mediated Advertising in Under-Connected Populations (CHI 2020, Best Paper Honorable Mention) <a href="/files/chi2020_superabbuads-7.pdf">[PDF]</a></li>
+    <li>Ahmad, S. S. O., Hirshleifer, S., Naseem, M., Rezaee, A., & Raza, A. A. (2022) — Perceptions of Paternal Involvement in Maternal Healthcare in Rural Pakistan (APHA 2022 Annual Meeting and Expo)</li>
+    <li>St-Onge Ahmad, Naseem, & Raza (2017) — Maternal Awareness for Low-Literate Expecting Parents via Voice-Based Telephone Services (SIGCHI 2017) <a href="/files/2017-CHI--Maternal_Awareness_for_Low-Literate_Expecting_Parents_via_Voice-Based_Telephone_Services-2.pdf">[PDF]</a></li>
+    <li>Kharal, Naseem, St-Onge Ahmad, & Raza (2017) — Sustainable IVR-Based Social Media for the Developing World (SIGCHI 2017) <a href="/files/2017-CHI--Sustainable_IVR-Based_Social_Media_for_the_Developing_World.pdf">[PDF]</a></li>
 </ul>
 
-<h3>Key Findings</h3>
-<ul>
-  <li>Facebook ads acquired retained users at $137 each; ads on speech-based platforms acquired them at $0.61 (225x improvement)</li>
-  <li>Users engaging with official content were 13x more likely to create health content themselves</li>
-  <li>Heavy moderation cut misinformation by 97% but reduced beneficial health information consumption by 21-29%</li>
+<h3>Credible Health Information and Misinformation</h3>
+<div class="subtheme-summary">
+We tested three engagement mechanisms on a voice platform and found that targeted strategies increased health content creation 13-fold and information sharing 3-fold, but discovered a critical paradox: aggressive content moderation reduced misinformation by 97% yet paradoxically decreased overall exposure to beneficial health information by 21-29% (Raza et al. 2022; Hirshleifer et al. 2022).
+</div>
+<ul class="papers">
+    <li>Raza, Naseem, et al. (2022) — Fostering Engagement of Underserved Communities with Credible Health Information on Social Media (WWW 2022) <a href="/files/www2022_spreadingcrediblehealthinformation-9.pdf">[PDF]</a></li>
+    <li>Hirshleifer, Naseem, Raza, & Rezaee (2022) — The spread of (mis)information: A social media experiment in Pakistan <a href="/files/2023_misinformation pakistan.pdf">[PDF]</a></li>
 </ul>
 
-<hr>
-
-<h2>Theme 2: Designing Digital Safety in Patriarchal Contexts</h2>
-
-<p>Even on platforms designed for low-literate users, research found that 95% of posts aimed at women were threats, abuse, or flirtation. I sought to understand how women circumnavigate such hostile environments.</p>
-
-<h3>Key Projects</h3>
-<ul>
-  <li><strong>Women-Only Digital Safe Spaces</strong>: Analyzing a 15,000-member women-only Facebook group in Pakistan, we found that nearly half of all posts were anonymous, enabling discussion of taboo topics like intimate partner violence and contraception.</li>
-  <li><strong>Moderation as Empowerment</strong>: Using Naila Kabeer and Jo Rowlands' framework, we showed that moderating these spaces provided women with power-within (consciousness change), power-to (accessing resources), power-with (collective organizing), and power-through (change via social networks).</li>
-  <li><strong>Non-Consensual Image Disclosure Abuse (NCIDA)</strong>: Working with Pakistan's Federal Investigation Agency, we found that in honor-based cultures, the <em>threat</em> of sharing operates through anticipated family response—no actual image sharing need occur.</li>
+<h3>Voice Interface Design</h3>
+<div class="subtheme-summary">
+We tested the impact of voice gender and formality in IVR systems for low-literate populations in patriarchal contexts, finding that male participants trusted male voices more, formal voices made myths seem accurate to male participants, and female participants demonstrated greater knowledge of maternal health facts (Mubarak et al. 2020).
+</div>
+<ul class="papers">
+    <li>Mubarak, Shahid, Mustafa, & Naseem (2020) — Does Gender and Accent of Voice Matter? An Interactive Voice Response (IVR) experiment (ICTD 2020) <a href="/files/2020_Gender Accent IVR.pdf">[PDF]</a></li>
 </ul>
 
-<h3>Awards</h3>
-<ul>
-  <li><strong>CSCW 2020 Diversity and Inclusion Award</strong>: "Designing Digital Safe Spaces for Peer Support and Connectivity in Patriarchal Contexts"</li>
+<h2>Digital Safety in Patriarchal Contexts</h2>
+
+<div class="theme-description">
+Creating interventions that address technology-facilitated gender-based violence, including digital abuse, intimate partner violence, screenshot leakage, and coerced access. Understanding how women design digital spaces for safety when surveillance and control are structural features of their lives.
+</div>
+
+<h3>Digital Safe Spaces for Women</h3>
+<div class="subtheme-summary">
+We studied digital safe spaces in South Asia and found that they allow women to circumnavigate the patriarchal gaze and provide peer support (Younas et al. 2020), that creating these spaces empowers moderators contrary to existing literature portraying moderation as burden (Ammari et al. 2022), and that designing speech-based safe spaces for low-literate women requires navigating real-world constraints including novel authentication mechanisms like two-pin systems (Naseem et al. 2020).
+</div>
+<ul class="papers">
+    <li>Ammari, Nofal, Naseem, & Mustafa (2022) — Moderation as Empowerment: Creating and Managing Women-Only Digital Safe Spaces (CSCW 2022) <a href="/files/cscw2022_moderationempowerment-7.pdf">[PDF]</a></li>
+    <li>Naseem, Younas, & Mustafa (2020) — Designing Digital Safe Spaces for Peer Support and Connectivity in Patriarchal Contexts (CSCW 2020, Diversity and Inclusion Award) <a href="/files/cscw2020_digitalsafespaces-7.pdf">[PDF]</a></li>
+    <li>Younas, Naseem, & Mustafa (2020) — Patriarchy and Social Media: Women Only Facebook Groups as Safe Spaces for Support Seeking in Pakistan (ICTD 2020) <a href="/files/ictd2020_patriarchy-4.pdf">[PDF]</a></li>
 </ul>
 
-<hr>
-
-<h2>Theme 3: From Individual to Collective Digital Adaptation</h2>
-
-<p>My third theme extends this lens to refugees navigating the transition to a digital economy. Sociotechnical adaptation is deeply gendered but collectively oriented.</p>
-
-<h3>Key Projects</h3>
-<ul>
-  <li><strong>Afghan Refugee Adaptation Study</strong>: Men leveraged broad WhatsApp groups for employment knowledge, while women coordinated collective purchasing and emotional support. Both acted for the family unit, extending individualistic frameworks to encompass household-level adaptation.</li>
-  <li><strong>Community Digital Capacity Measure</strong>: Challenging the assumption that digital literacy is an individual attribute, we developed a measure showing that a family's ability to navigate systems depends less on individual skill than on their network's collective resources.</li>
-  <li><strong>Community Technology Worker (CTW) Program</strong>: Modeled on the community health worker model, we trained 26 technology workers from within the Afghan community. Workers prevented critical failures (e.g., missed school emails triggering CPS calls) but faced 24/7 demands.</li>
+<h3>Technology-Facilitated Gender-Based Violence</h3>
+<div class="subtheme-summary">
+We found that image-based abuse in South Asian contexts functions fundamentally differently than Western frameworks, with perpetrators sharing culturally sensitive but non-sexual images with victims' male family members to cause severe social harm, revealing how social media companies' Western definitions fail to protect victims (Batool et al. 2024); through global research, we found that women perceive greater harm from online harassment than men, especially for non-consensual image sharing, and prefer platform responses like content removal and user banning (Im et al. 2022).
+</div>
+<ul class="papers">
+    <li>Batool, Naseem, & Toyama (2024) — Expanding Concepts of Non-Consensual Image-Disclosure Abuse: A Study of NCIDA in Pakistan (CHI 2024) <a href="/files/2024_NCIDA Image Abuse.pdf">[PDF]</a></li>
+    <li>Im, Schoenebeck, Iriarte, Grill, Wilkinson, Batool, et al. (2022) — Women's Perspectives on Harm and Justice after Online Harassment (CSCW 2022) <a href="/files/cscw2022_womens-perspectives-4.pdf">[PDF]</a></li>
 </ul>
 
-<hr>
-
-<h2>Future Directions</h2>
-
-<p>My research trajectory raises a critical scaling question: <strong>How can we architect technology that amplifies vulnerable disclosure without amplifying vulnerability to exploitation?</strong></p>
-
-<h3>Current Focus Areas</h3>
-<ul>
-  <li><strong>Culturally-Conditional Reward Models</strong>: Moving beyond surface-level prompt engineering to fundamentally rethink Reinforcement Learning from Human Feedback for pluralistic values</li>
-  <li><strong>Empathy Applicability Framework</strong>: Shifting empathy modeling from reactive labeling to anticipatory detection (F1 &gt; 87% in preliminary trials)</li>
-  <li><strong>Community-Based Threat Detection</strong>: Supported by a 2025 Google Academic Research Award ($100K), investigating how to equip trusted intermediaries with tools to verify claims and flag emerging threats</li>
+<h3>Privacy and Digital Abuse in South Asia</h3>
+<div class="subtheme-summary">
+We found that Muslim-American women face intersectional online privacy risks across three dimensions (as Muslim-Americans broadly through Islamophobic harassment, as Muslim-American women specifically through reputational harm for taboo content, and based on individual religious practices), requiring digital privacy design principles that account for overlapping marginalized identities (Afnan et al. 2022).
+</div>
+<ul class="papers">
+    <li>Afnan, Zou, Mustafa, Naseem, & Schaub (2022) — Aunties, Strangers, and the FBI: Online Privacy Concerns and Experiences of Muslim-American Women (SOUPS 2022) <a href="/files/soups2022_auntiesstrangersfbi.pdf">[PDF]</a></li>
 </ul>
 
-<hr>
+<h2>Community Digital Literacy & Capacity</h2>
 
-<h2>Impact</h2>
+<div class="theme-description">
+Developing literacy measures that capture how marginalized communities actually adopt technology, and designing "train-the-trainer" models to build sustainable community-driven digital capacity at scale.
+</div>
 
-<p>This research has directly touched over <strong>5 million lives</strong> through interventions ranging from immunization systems deployed at provincial scale to COVID-19 information platforms serving tens of thousands of low-literate users.</p>
+<h3>Measuring and Assessing Digital Capacity</h3>
+<div class="subtheme-summary">
+We developed a novel measure of community digital capacity addressing a critical gap in individual digital literacy assessments, capturing three domains (individual, social, infrastructure) that reveal digital inequities in the context of systemic and structural challenges faced by marginalized populations (Dillahunt et al. 2025); our exploratory analysis across 553 U.S. respondents identified a three-factor structure as a foundation for assessing whether people can access shared digital resources and activities (Dillahunt et al. 2024).
+</div>
+<ul class="papers">
+    <li>Dillahunt, Shedden, Filipof, Lee, Naseem, Toyama, & Hui (2025) — The Design and Psychometrics for a New Measure of Collective Digital Literacy (CSCW 2025) <a href="/files/2025_digital capacity measure.pdf">[PDF]</a></li>
+    <li>Dillahunt, Shedden, Filipof, Lee, Naseem, Toyama, & Hui (2024) — Toward a Measure of Collective Digital Capacity: An Exploratory Analysis (CHI 2024 Extended Abstracts) <a href="/files/lbw-2-3.pdf">[PDF]</a></li>
+</ul>
 
-<p><strong>Selected Recognition:</strong></p>
-<ul>
-  <li>CHI 2020 Best Paper Honorable Mention</li>
-  <li>CSCW 2020 Diversity and Inclusion Award</li>
-  <li>2025 Google Academic Research Award</li>
-  <li>Over $4M in grant funding (10 grants as PI, $1.3M as PI)</li>
+<h3>Implementing Digital Literacy in Marginalized Communities</h3>
+<div class="subtheme-summary">
+We found that Afghan refugees' adaptation strategies during resettlement are shaped by gender and collectivist cultural values, with strategic choices in support-seeking varying by shared versus non-shared identity with host community members, and tensions between economic adaptation and preserving sociocultural values, particularly through creative collective solutions by women (Batool et al. 2024); through interviews with co-design facilitators working in 43 countries, we found that power differentials based on educational background, language barriers, and gender prevent true collaboration, particularly when tools require literacy and advanced training (Jiang et al. 2022); and we found that low-income African-American pregnant women seek information from multiple sources, treat formal medical sources no differently than other sources, and request material and social support alongside medical information, suggesting video testimonials by experienced mothers are particularly effective (Burleson et al. 2020).
+</div>
+<ul class="papers">
+    <li>Batool, Dillahunt, Hui, & Naseem (2024) — Lessons from Studying Sociotechnical Adaptation among Afghan Refugees in a Mid-Western US State (CSCW 2024) <a href="/files/2024_sociotechnical adaptation afghan refugees.pdf">[PDF]</a></li>
+    <li>Jiang, Naseem, Lai, Toyama, & Papalambros (2022) — Understanding Power Differentials and Cultural Differences in Co-design with Marginalized Populations (COMPASS 2022) <a href="/files/compass2022_powerdifferentials-4.pdf">[PDF]</a></li>
+    <li>Burleson, Naseem, & Toyama (2020) — An exploration of African-American pregnant women's information-seeking behavior in Detroit (ICTD 2020) <a href="/files/2020_african american pregnant women info seeking behavior.pdf">[PDF]</a></li>
+</ul>
+
+<h3>Data Quality and Implementation Integrity</h3>
+<div class="subtheme-summary">
+We found that data falsification by front-line immunization workers in Pakistan is common, and that mid-level supervisors employ multiple detection strategies (triangulation, supplementary data collection, anomaly detection, interrogation) that correlate with their management style, with implications for designing technologies to monitor and manage front-line data (Batool et al. 2021).
+</div>
+<ul class="papers">
+    <li>Batool, Toyama, Veinot, Fatima, & Naseem (2021) — Detecting Data Falsification by Front-line Development Workers: A Case Study of Vaccination in Pakistan (CHI 2021) <a href="/files/chi2021_intentioanldatafalsification-2.pdf">[PDF]</a></li>
 </ul>
