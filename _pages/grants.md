@@ -29,7 +29,7 @@ author_profile: true
   font-size: 1.1em;
 }
 .grant-funder {
-  color: #6f42c1;
+  color: #0066cc;
   font-weight: bold;
 }
 </style>
