@@ -33,28 +33,6 @@ redirect_from:
     font-weight: 600;
 }
 
-.highlight-box {
-    background-color: #f0f7ff;
-    padding: 20px;
-    border-radius: 6px;
-    border-left: 4px solid #0066cc;
-    margin-top: 30px;
-}
-
-.highlight-box p {
-    margin-bottom: 0;
-    font-size: 15px;
-}
-
-.highlight-box a {
-    color: #0066cc;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.highlight-box a:hover {
-    text-decoration: underline;
-}
 </style>
 
 <div class="about-section">
@@ -64,7 +42,7 @@ redirect_from:
 </div>
 
 <div class="supported-by">
-<p><strong>Supported by:</strong> Bill and Melinda Gates Foundation, NSF, NIH, USAID, National Academies of Science, Engineering, and Medicine, DFID, and UNICEF.</p>
+<p><strong style="color: #0066cc;">Supported by:</strong> Bill and Melinda Gates Foundation, NSF, NIH, USAID, National Academies of Science, Engineering, and Medicine, DFID, and UNICEF.</p>
 </div>
 
 <div class="about-section">
@@ -74,8 +52,4 @@ redirect_from:
 <div class="award"><span class="award-year">2020</span> — Diversity and Inclusion Award, CSCW</div>
 <div class="award"><span class="award-year">2016</span> — Rolex Young Laureate Award Finalist</div>
 <div class="award"><span class="award-year">2011–2013</span> — Fulbright Scholar</div>
-</div>
-
-<div class="highlight-box">
-<p><strong>I'm hiring postdocs</strong> interested in digital safety, health information systems, and design justice. <a href="mailto:mnaseem@umich.edu">Get in touch</a> if you're passionate about rigorous, participatory research with marginalized communities.</p>
 </div>
