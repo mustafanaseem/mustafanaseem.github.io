@@ -7,6 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+h2 {
+  color: #0066cc;
+}
+</style>
+
 ## University of Michigan School of Information
 
 **SIADS 601: Qualitative Research for Data Scientists**
