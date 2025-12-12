@@ -71,9 +71,9 @@ Batool, A., Toyama, K., Veinot, T., Fatima, B., & **Naseem, M.** (2021). Detecti
 
 Younas, F., **Naseem, M.**, & Mustafa, M. (2020). Patriarchy and social media: Women only Facebook groups as safe spaces for support seeking in Pakistan. *Proceedings of the 2020 International Conference on Information and Communication Technologies and Development*, 1-11. <a href="/files/ictd2020_patriarchy-4.pdf" class="pdf-link">[PDF]</a>
 
-Burleson, G., **Naseem, M.**, & Toyama, K. (2020). An exploration of African-American pregnant women's information-seeking behavior in Detroit. *Proceedings of the 2020 International Conference on Information and Communication Technologies and Development*, 1-12.
+Burleson, G., **Naseem, M.**, & Toyama, K. (2020). An exploration of African-American pregnant women's information-seeking behavior in Detroit. *Proceedings of the 2020 International Conference on Information and Communication Technologies and Development*, 1-12. <a href="/files/2020_african american pregnant women info seeking behavior.pdf" class="pdf-link">[PDF]</a>
 
-Mubarak, E., Shahid, T., Mustafa, M., & **Naseem, M.** (2020). Does Gender and Accent of Voice Matter? An Interactive Voice Response (IVR) experiment. *Information and Communication Technologies and Development (ICTD '20)*.
+Mubarak, E., Shahid, T., Mustafa, M., & **Naseem, M.** (2020). Does Gender and Accent of Voice Matter? An Interactive Voice Response (IVR) experiment. *Information and Communication Technologies and Development (ICTD '20)*. <a href="/files/2020_Gender Accent IVR.pdf" class="pdf-link">[PDF]</a>
 
 ---
 
@@ -93,7 +93,7 @@ Lee, J., Schwartz, L., Long, E., & **Naseem, M.** (2018). Using Experiential-Lea
 
 Iqbal, M., Shahid, S., & **Naseem, M.** (2017). Interactive Urdu Braille Learning System for Parents of Visually Impaired Students. *ASSETS '17: Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility*, 327-328. <a href="/files/2017_interactive braille.pdf" class="pdf-link">[PDF]</a>
 
-Shahzad, U., Murtaza, A., & **Naseem, M.** (2017). Role of Academic Makerspaces in Creating Social Impact. *Proceedings of the 2nd International Symposium on Academic Makerspaces (ISAM 2017)*.
+Shahzad, U., Murtaza, A., & **Naseem, M.** (2017). Role of Academic Makerspaces in Creating Social Impact. *Proceedings of the 2nd International Symposium on Academic Makerspaces (ISAM 2017)*. <a href="/files/2017 - Role of Academic Makerspaces in Creating Social Impact Paper-2.pdf" class="pdf-link">[PDF]</a>
 
 ---
 
