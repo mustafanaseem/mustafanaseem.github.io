@@ -36,7 +36,7 @@ redirect_from:
 </style>
 
 <div class="about-section">
-<p>I design information systems for marginalized communities where access is constrained—not by devices, but by literacy barriers, patriarchal surveillance, displacement, and systemic inequality. I work primarily in South Asia and with diaspora communities in the US, partnering with governments, NGOs, and community organizations to build solutions that account for local power dynamics rather than importing Western-centric "fixes."</p>
+<p>I design information systems for marginalized communities where access is constrained: not by devices, but by literacy barriers, patriarchal surveillance, displacement, and systemic inequality. I work primarily in South Asia and with diaspora communities in the US, partnering with governments, NGOs, and community organizations to build solutions that account for local power dynamics rather than importing Western-centric "fixes."</p>
 
 <p>My work bridges critical analysis of structural inequality with pragmatic system design. This means understanding whether a two-PIN system actually protects women when their husbands demand access, how to make voice-based systems work on feature phones, where screenshots will leak, and what "anonymity" really means in a community of 5,000 people. It means design that acknowledges constraint rather than ignoring it.</p>
 </div>
