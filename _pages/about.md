@@ -42,7 +42,7 @@ redirect_from:
 </div>
 
 <div class="supported-by">
-<p><strong style="color: #0066cc;">Supported by:</strong> Bill and Melinda Gates Foundation, NSF, NIH, USAID, National Academies of Science, Engineering, and Medicine, DFID, and UNICEF.</p>
+<p><strong style="color: #0066cc;">My research has been generously supported by:</strong> Bill and Melinda Gates Foundation, NSF, NIH, USAID, National Academies of Science, Engineering, and Medicine, DFID, and UNICEF.</p>
 </div>
 
 <div class="about-section">
@@ -52,5 +52,5 @@ redirect_from:
 <div class="award"><span class="award-year">2020</span> — Best Paper Honorable Mention, CHI</div>
 <div class="award"><span class="award-year">2020</span> — Diversity and Inclusion Award, CSCW</div>
 <div class="award"><span class="award-year">2016</span> — Rolex Young Laureate Award Finalist</div>
-<div class="award"><span class="award-year">2011–2013</span> — Fulbright Scholar</div>
+<div class="award"><span class="award-year">2011–2013</span> — Fulbright Foreign Student Scholarship, University of Colorado Boulder</div>
 </div>
