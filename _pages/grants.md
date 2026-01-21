@@ -36,6 +36,12 @@ author_profile: true
 
 ## 2025
 
+**Google Academic Research Award**
+<br><span class="grant-funder">Google</span>
+<br><span class="grant-role-pi">PI</span> · <span class="grant-amount">$100,000</span> · 2025
+
+This work will develop the first culturally tailored scam prevention framework for Afghan refugee communities through our established Community Tech Worker (CTW) program. We will conduct interviews with scam survivors, co-design educational materials in Dari/Pashto, and create a four-week training curriculum to build collective digital resilience against online fraud.
+
 **Impact Accelerator Grant**
 <br><span class="grant-funder">Center for Global Health Equity, University of Michigan</span>
 <br><span class="grant-role-pi">PI</span> · <span class="grant-amount">$97,056</span> · 09/2025 – 08/2027
