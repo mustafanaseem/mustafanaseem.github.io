@@ -19,6 +19,12 @@ author_profile: true
 }
 </style>
 
+## 2026
+
+Randhawa, S., Raza, A. A., Toyama, K., Hui, J., & **Naseem, M.** (2026). Empathy Applicability Modeling for General Health Queries. *arXiv preprint arXiv:2601.09696*.
+
+---
+
 ## 2025
 
 Dillahunt, T., Shedden, K., Filipof, M., Lee, S., **Naseem, M.**, Toyama, K., Hui, J. (2025). The Design and Psychometrics for a New Measure of Collective Digital Literacy: Community Digital Capacity. *Proceedings of the ACM on Human-Computer Interaction (CSCW)*. <a href="/files/2025_digital capacity measure.pdf" class="pdf-link">[PDF]</a>
