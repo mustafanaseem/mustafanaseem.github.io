@@ -16,13 +16,13 @@ h2 {
 ## University of Michigan School of Information
 
 **SIADS 601: Qualitative Research for Data Scientists**
-<br>Fall 2025
+<br>Winter 2026, Fall 2025
 
 **SI500: Problem Solving with People, Information, & Technology**
 <br>Fall 2025, Fall 2024
 
 **SI699: UX Research and Design Mastery**
-<br>Winter 2025, Winter 2024
+<br>Winter 2026, Winter 2025, Winter 2024
 
 **SI591: Humanitarian Innovation: Co-Design for Social Impact**
 <br>Winter 2025, Winter 2024, Spring 2023
