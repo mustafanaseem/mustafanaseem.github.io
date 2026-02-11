@@ -36,9 +36,11 @@ redirect_from:
 </style>
 
 <div class="about-section">
-<p>I design information systems for marginalized communities where access is constrained: not by devices, but by literacy barriers, patriarchal surveillance, displacement, and systemic inequality. I work primarily in South Asia and with diaspora communities in the US, partnering with governments, NGOs, and community organizations to build solutions that account for local power dynamics rather than importing Western-centric "fixes."</p>
+<p>I am a Clinical Associate Professor at the University of Michigan School of Information. Before UMSI, I was an ICTD Expert in Residence at the ATLAS Institute, University of Colorado. My research examines how technology can democratize information access and agency for marginalized communities, particularly low-literate populations and women navigating technology facilitated gender-based violence (TFGBV) across South Asia and refugee communities the United States.</p>
 
-<p>My work bridges critical analysis of structural inequality with pragmatic system design. This means understanding whether a two-PIN system actually protects women when their husbands demand access, how to make voice-based systems work on feature phones, where screenshots will leak, and what "anonymity" really means in a community of 5,000 people. It means design that acknowledges constraint rather than ignoring it.</p>
+<p>My work spans three interconnected areas. First, I design voice-based and mobile health information systems that reach low-literate populations, with a particular focus on enabling behavior change among men in patriarchal societies to improve the health of women and children. Second, I study technology-facilitated gender-based violence and build interventions that create digital safe spaces for women navigating abuse, harassment, and non-consensual image disclosure. Third, I investigate how refugee and diasporic communities develop digital literacy and adapt to new sociotechnical environments, centering their voices in the design of tools and policy. Across all three areas, my work involves deep collaboration with governments, NGOs, and community organizations in South Asia and the U.S. to ensure sustainability and policy relevance.</p>
+
+<p>My work, published at ACM CHI, CSCW, and the Web Conference, has been recognized with a Diversity & Inclusion Award and Best Paper Honorable Mention, and supported by the NSF, NIH, Gates Foundation, USAID, and UNICEF, among others. I hold a doctorate in Design Science from the University of Michigan and an M.S. from the University of Colorado Boulder, where I was a Fulbright Scholar.</p>
 </div>
 
 <div class="supported-by">
