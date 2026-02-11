@@ -19,10 +19,6 @@ redirect_from:
     color: #333;
 }
 
-.supported-by {
-    margin-bottom: 30px;
-}
-
 .award {
     margin-bottom: 10px;
     font-size: 15px;
@@ -41,10 +37,6 @@ redirect_from:
 <p>My work spans three interconnected areas. First, I design voice-based and mobile health information systems that reach low-literate populations, with a particular focus on enabling behavior change among men in patriarchal societies to improve the health of women and children. Second, I study technology-facilitated gender-based violence and build interventions that create digital safe spaces for women navigating abuse, harassment, and non-consensual image disclosure. Third, I investigate how refugee and diasporic communities develop digital literacy and adapt to new sociotechnical environments, centering their voices in the design of tools and policy. Across all three areas, my work involves deep collaboration with governments, NGOs, and community organizations in South Asia and the U.S. to ensure sustainability and policy relevance.</p>
 
 <p>My work, published at ACM CHI, CSCW, and the Web Conference, has been recognized with a Diversity & Inclusion Award and Best Paper Honorable Mention, and supported by the NSF, NIH, Gates Foundation, USAID, and UNICEF, among others. I hold a doctorate in Design Science from the University of Michigan and an M.S. from the University of Colorado Boulder, where I was a Fulbright Scholar.</p>
-</div>
-
-<div class="supported-by">
-<p><strong style="color: #0066cc;">My research has been generously supported by:</strong> Bill and Melinda Gates Foundation, NSF, NIH, USAID, National Academies of Science, Engineering, and Medicine, DFID, and UNICEF.</p>
 </div>
 
 <div class="about-section">
