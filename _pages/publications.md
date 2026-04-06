@@ -21,6 +21,8 @@ author_profile: true
 
 ## 2026
 
+Hirshleifer, S., **Naseem, M.**, Raza, A. A., & Rezaee, A. (2026). The spread of (mis)information: A social media experiment in Pakistan. *Journal of Development Economics*, 103784. <a href="/files/2026_Mininformation RCT Pakistan.pdf" class="pdf-link">[PDF]</a>
+
 Randhawa, S., Raza, A. A., Toyama, K., Hui, J., & **Naseem, M.** (2026). Empathy Applicability Modeling for General Health Queries. *arXiv preprint arXiv:2601.09696*. <a href="/files/2026_Empathy Applicability Modeling.pdf" class="pdf-link">[PDF]</a>
 
 ---
