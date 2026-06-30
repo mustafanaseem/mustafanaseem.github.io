@@ -25,7 +25,7 @@ Hui, J., Filipof, M. E., Lee, S., Corvite, S., **Naseem, M.**, & Dillahunt, T. R
 
 Permata Yudiani, A., **Naseem, M.**, & Dillahunt, T. R. (2026). Algorithmic and Gender-Specific Challenges of Gig Work in the Indonesian Ride-Hailing Industry: Preliminary Findings. *Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems*, 1-5. <a href="/files/2026_CHI_EA_AlgorithmicGender Challenges of Gig Work.pdf" class="pdf-link">[PDF]</a>
 
-Hirshleifer, S., **Naseem, M.**, Raza, A. A., & Rezaee, A. (2026). The spread of (mis)information: A social media experiment in Pakistan. *Journal of Development Economics*, 103784. <a href="/files/2026_Mininformation RCT Pakistan.pdf" class="pdf-link">[PDF]</a>
+Hirshleifer, S., **Naseem, M.**, Raza, A. A., & Rezaee, A. (2026). The spread of (mis)information: A social media experiment in Pakistan. *Journal of Development Economics*, 103784. <a href="/files/2026_Misinformation RCT_new.pdf" class="pdf-link">[PDF]</a>
 
 Randhawa, S., Raza, A. A., Toyama, K., Hui, J., & **Naseem, M.** (2026). Empathy Applicability Modeling for General Health Queries. *Findings of the Association for Computational Linguistics: ACL 2026* (to appear). <a href="/files/2026_Empathy Applicability Modeling.pdf" class="pdf-link">[PDF]</a>
 
