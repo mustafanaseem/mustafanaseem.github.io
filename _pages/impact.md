@@ -15,13 +15,80 @@ author_profile: true
   margin-bottom: 36px;
 }
 
-.impact-project {
-  margin: 0 0 56px 0;
+details.impact-project {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-.impact-project + .impact-project {
+details.impact-project + details.impact-project {
   border-top: 1px solid #e5e7eb;
-  padding-top: 44px;
+  margin-top: 28px;
+  padding-top: 28px;
+}
+
+details.impact-project[open] {
+  padding-bottom: 20px;
+}
+
+summary.project-summary {
+  display: block;
+  list-style: none;
+  cursor: pointer;
+  padding: 6px 0 2px 0;
+  border-radius: 4px;
+}
+
+summary.project-summary::-webkit-details-marker {
+  display: none;
+}
+
+summary.project-summary::marker {
+  content: "";
+}
+
+summary.project-summary:focus {
+  outline: none;
+}
+
+summary.project-summary:focus-visible {
+  outline: 3px solid #4c8bf5;
+  outline-offset: 4px;
+}
+
+.summary-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+summary.project-summary .project-title {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.summary-chevron {
+  flex: 0 0 auto;
+  align-self: flex-start;
+  margin-top: 12px;
+  color: #6a7480;
+  transition: transform 220ms ease;
+  transform: rotate(0deg);
+  line-height: 0;
+}
+
+.summary-chevron::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-right: 2.5px solid currentColor;
+  border-bottom: 2.5px solid currentColor;
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+details.impact-project[open] > summary.project-summary .summary-chevron {
+  transform: rotate(180deg);
 }
 
 .project-title {
@@ -39,11 +106,19 @@ author_profile: true
   line-height: 1.5;
 }
 
+summary.project-summary .project-intro {
+  margin-bottom: 6px;
+}
+
 .project-intro {
   font-size: 16px;
   line-height: 1.85;
   color: #333;
   margin-bottom: 24px;
+}
+
+.project-collapse {
+  padding-top: 14px;
 }
 
 .project-figure {
@@ -157,12 +232,17 @@ author_profile: true
 
 <div class="impact-lede">Selected projects and what came of them.</div>
 
-<article class="impact-project">
-
+<details class="impact-project" id="har-zindagi">
+<summary class="project-summary">
+<div class="summary-head">
 <h2 class="project-title">Har Zindagi: Making childhood immunization records useful to families and vaccinators</h2>
+<span class="summary-chevron" aria-hidden="true"></span>
+</div>
 <div class="project-meta">Punjab, Pakistan · 2015&ndash;2017 · Principal investigator · Funded by DFID through the Sub-National Governance Programme</div>
-
 <p class="project-intro">A child's immunization record has to work for several people at once: a caregiver keeping track of the next visit, a vaccinator recording what happened, and a health system trying to reach every child. As principal investigator of Har Zindagi ("Every Life Matters"), I led a team working with Punjab's Expanded Program on Immunization to redesign that record end to end, pairing a more legible physical card with an Android app that vaccinators used to create digital records in the field.</p>
+</summary>
+
+<div class="project-collapse">
 
 <figure class="project-figure">
   <img src="{{ base_path }}/images/harzindagi.png" alt="Photograph of the redesigned Har Zindagi immunization booklet, open to the six-week visit. The left page shows date-of-visit fields for OPV-1, Penta-1, PCV 10-1, and Rotavirus-1, each color coded and paired with an icon of the body system the vaccine protects. The right page marks the child's developmental stage in Urdu ('6-week-old child') and illustrates three milestones with pictorial captions." />
@@ -199,17 +279,23 @@ author_profile: true
 
 </div>
 
-</article>
+</div>
+</details>
 
-<article class="impact-project">
-
+<details class="impact-project" id="water-atms">
+<summary class="project-summary">
+<div class="summary-head">
 <h2 class="project-title">Water ATMs: Helping Lahore's water utility see its filtration plants at work</h2>
+<span class="summary-chevron" aria-hidden="true"></span>
+</div>
 <div class="project-meta">Lahore, Pakistan · 2017&ndash;2020 · U.S. principal investigator · Funded by the Pakistan-U.S. Science and Technology Cooperation Program</div>
-
 <p class="project-intro">Many families in Lahore collect their drinking water from public filtration plants: neighborhood taps run by the city's water utility, WASA Lahore, where the water is free and carried home in jerry cans. A utility that can see each plant at work can keep the water flowing, fix a leaking tap the day it starts, and plan where the next plant should go. Together with Dr. Tauseef Tauqeer at Information Technology University, Lahore, I co-led a three-year project to build a low-cost sensing unit that gives the utility that view, and to pair the engineering with fieldwork on how low-income residents of Lahore get their water.</p>
+</summary>
+
+<div class="project-collapse">
 
 <figure class="project-figure">
-  <div class="video-embed">
+  <div class="video-embed" data-video-src="" data-video-title="Water ATMs, a five-minute documentary by Haya Fatima Iqbal">
     <div class="video-placeholder">Film embed reserved (responsive 16:9). Iframe src will be added when the URL is supplied.</div>
   </div>
   <figcaption>A five-minute film about the project by documentary filmmaker Haya Fatima Iqbal. It follows residents collecting water at Lahore's filtration plants and includes conversations with Dr. Tauseef Tauqeer, WASA Lahore managing director Zahid Aziz, and me.</figcaption>
@@ -246,4 +332,60 @@ author_profile: true
 
 </div>
 
-</article>
+</div>
+</details>
+
+<script>
+(function () {
+  var projects = document.querySelectorAll('details.impact-project');
+  if (!projects.length) return;
+
+  function loadVideosIn(details) {
+    var embeds = details.querySelectorAll('.video-embed[data-video-src]');
+    for (var i = 0; i < embeds.length; i++) {
+      var embed = embeds[i];
+      var src = embed.getAttribute('data-video-src');
+      if (!src) continue;
+      if (embed.querySelector('iframe')) continue;
+      var iframe = document.createElement('iframe');
+      iframe.setAttribute('src', src);
+      iframe.setAttribute('title', embed.getAttribute('data-video-title') || 'Project film');
+      iframe.setAttribute('loading', 'lazy');
+      iframe.setAttribute('allowfullscreen', '');
+      iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+      var placeholder = embed.querySelector('.video-placeholder');
+      if (placeholder && placeholder.parentNode) placeholder.parentNode.removeChild(placeholder);
+      embed.appendChild(iframe);
+    }
+  }
+
+  function openFromHash() {
+    var id = (window.location.hash || '').replace(/^#/, '');
+    if (!id) return;
+    var target = document.getElementById(id);
+    if (!target || target.tagName !== 'DETAILS' || !target.classList.contains('impact-project')) return;
+    if (!target.open) target.open = true;
+    else loadVideosIn(target);
+    setTimeout(function () {
+      try { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      catch (e) { target.scrollIntoView(); }
+    }, 60);
+  }
+
+  for (var i = 0; i < projects.length; i++) {
+    (function (d) {
+      d.addEventListener('toggle', function () {
+        if (!d.open) return;
+        if (window.history && typeof window.history.replaceState === 'function') {
+          try { window.history.replaceState(null, '', '#' + d.id); } catch (e) {}
+        }
+        loadVideosIn(d);
+      });
+    })(projects[i]);
+  }
+
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
+})();
+</script>
