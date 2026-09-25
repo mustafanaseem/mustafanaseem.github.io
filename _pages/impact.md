@@ -295,7 +295,7 @@ summary.project-summary .project-intro {
 <div class="project-collapse">
 
 <figure class="project-figure">
-  <div class="video-embed" data-video-src="" data-video-title="Water ATMs, a five-minute documentary by Haya Fatima Iqbal">
+  <div class="video-embed" data-video-src="https://www.youtube.com/embed/TSojzm678kM" data-video-title="Water ATMs, a five-minute documentary by Haya Fatima Iqbal">
     <div class="video-placeholder">Film embed reserved (responsive 16:9). Iframe src will be added when the URL is supplied.</div>
   </div>
   <figcaption>A five-minute film about the project by documentary filmmaker Haya Fatima Iqbal. It follows residents collecting water at Lahore's filtration plants and includes conversations with Dr. Tauseef Tauqeer, WASA Lahore managing director Zahid Aziz, and me.</figcaption>
@@ -327,7 +327,7 @@ summary.project-summary .project-intro {
 <ul class="project-refs">
   <li>Khan, Z. U., Anwar, M. U., Pirani, S., Lalani, F., Adegoke, B., Tauqeer, T., &amp; <strong>Naseem, M.</strong> (2020). Poster: Design of an IoT-based water flow monitoring system. <em>MobiCom 2020</em>. DOI: <a href="https://doi.org/10.1145/3372224.3418170">10.1145/3372224.3418170</a>.</li>
   <li>Pirani, S. (2020). Differential Access: Water Infrastructure and Water Quality Awareness among Lahore's Urban Poor. <em>Master's thesis, University of Michigan School of Information</em>. DOI: <a href="https://doi.org/10.7302/1714">10.7302/1714</a>.</li>
-  <li>Haya Fatima Iqbal. [Film title]. Five-minute documentary. <a href="#" class="pdf-link">[link]</a></li>
+  <li>Haya Fatima Iqbal. [Film title]. Five-minute documentary. <a href="https://youtu.be/TSojzm678kM" class="pdf-link">[link]</a></li>
 </ul>
 
 </div>
