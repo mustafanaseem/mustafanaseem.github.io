@@ -430,7 +430,7 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 
 <h3 class="project-h3">Read the work</h3>
 <ul class="project-refs">
-  <li><strong>Naseem, M.</strong>, Saleem, B., Ahmad, S. S., Chen, J., &amp; Raza, A. A. (2020). An Empirical Comparison of Technologically Mediated Advertising in Under-connected Populations. <em>CHI 2020</em>, Best Paper Honorable Mention. DOI: <a href="https://doi.org/10.1145/3313831.3376683">10.1145/3313831.3376683</a>.</li>
+  <li><a href="{{ base_path }}/files/chi2020_superabbuads-7.pdf" target="_blank" rel="noopener">An Empirical Comparison of Technologically Mediated Advertising in Under-connected Populations</a>. <strong>Naseem, M.</strong>, Saleem, B., Ahmad, S. S., Chen, J., &amp; Raza, A. A. (2020). <em>CHI 2020</em>, Best Paper Honorable Mention. DOI: <a href="https://doi.org/10.1145/3313831.3376683">10.1145/3313831.3376683</a>.</li>
   <li><a href="https://apha.confex.com/apha/2022/meetingapi.cgi/Paper/516094?filename=2022_Abstract516094.html&amp;template=Word" target="_blank" rel="noopener">Ahmad, S. S., Hirshleifer, S., <strong>Naseem, M.</strong>, Rezaee, A., &amp; Raza, A. A. (2022). Perceptions of Paternal Involvement in Maternal Healthcare in Rural Pakistan. <em>APHA 2022 Annual Meeting and Expo</em>.</a></li>
   <li>Taboo Topics and Misconceptions: Design and Deployment of a Health Hotline for Expectant Fathers. Unpublished manuscript, 2022.</li>
   <li>BBC Urdu. Report on Super Abbu. <a href="https://www.facebook.com/watch/?v=2319115705080021" target="_blank" rel="noopener">https://www.facebook.com/watch/?v=2319115705080021</a></li>
