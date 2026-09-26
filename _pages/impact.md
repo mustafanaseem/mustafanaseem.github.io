@@ -8,11 +8,19 @@ author_profile: true
 {% include base_path %}
 
 <style>
-.impact-lede {
+.impact-intro {
+  margin: 0 0 36px 0;
+}
+
+.impact-intro p {
   font-size: 16px;
-  line-height: 1.7;
-  color: #555;
-  margin-bottom: 36px;
+  line-height: 1.75;
+  color: #333;
+  margin: 0 0 16px 0;
+}
+
+.impact-intro p:last-child {
+  margin-bottom: 0;
 }
 
 details.impact-project {
@@ -302,7 +310,11 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 }
 </style>
 
-<div class="impact-lede">Selected projects and what came of them.</div>
+<div class="impact-intro">
+<p>I have been fortunate to spend my career on projects that try to improve life for people living in poverty, and I take none of it for granted. None of this work was mine alone. I did it alongside some of the hardest-working students and most brilliant colleagues I could have hoped for, and I learned something from every one of them.</p>
+<p>My deepest gratitude goes to the people who welcomed my teams and me into their homes, spoke openly about their struggles, and let us design technologies that might help others like them.</p>
+<p>I am grateful, too, to the governments, research agencies, and philanthropic organizations that funded this work, the universities that hosted these grants, and the reviewers who examined it, for trusting us with the responsibility to design and deploy these technologies and sociotechnical systems.</p>
+</div>
 
 <details class="impact-project" id="har-zindagi">
 <summary class="project-summary">
@@ -487,7 +499,7 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 </div>
 
 <figure class="project-figure">
-  <img src="{{ base_path }}/images/SuperAbbuPicture.jpg" alt="A father in a white shalwar kameez uses a mobile phone with a wired earpiece while seated on a charpai; his young son in a yellow and green striped shirt sits between his knees, and his wife in a blue and pink patterned dupatta sits to his right." />
+  <img src="{{ base_path }}/images/SuperAbbuPicture1.jpg" alt="A father in a white shalwar kameez speaks on a mobile phone, seated on the grass beside his wife and young son, in Lahore." />
   <figcaption>A phone call reaches the whole family. A father takes a call in Lahore while his wife and son look on. Photograph by Abdullah Kharal.</figcaption>
 </figure>
 
