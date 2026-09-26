@@ -487,7 +487,7 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 </div>
 
 <figure class="project-figure">
-  <img src="{{ base_path }}/images/SuperAbbuPicture.png" alt="A father in a white shalwar kameez speaks on a mobile phone, seated on the grass beside his wife and young son, in Lahore." />
+  <img src="{{ base_path }}/images/SuperAbbuPicture.jpg" alt="A father in a white shalwar kameez uses a mobile phone with a wired earpiece while seated on a charpai; his young son in a yellow and green striped shirt sits between his knees, and his wife in a blue and pink patterned dupatta sits to his right." />
   <figcaption>A phone call reaches the whole family. A father takes a call in Lahore while his wife and son look on. Photograph by Abdullah Kharal.</figcaption>
 </figure>
 
