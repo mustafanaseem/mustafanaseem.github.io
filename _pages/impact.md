@@ -280,7 +280,7 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 <details class="impact-project" id="har-zindagi">
 <summary class="project-summary">
 <div class="summary-head">
-<h2 class="project-title">Har Zindagi: Making childhood immunization records useful to families and vaccinators</h2>
+<h2 class="project-title">Har Zindagi: Immunization records that families, vaccinators, and supervisors can trust</h2>
 <span class="summary-chevron" aria-hidden="true"></span>
 </div>
 <div class="project-meta">Punjab, Pakistan · 2015&ndash;2020 · Principal investigator · Funded by DFID through the Sub-National Governance Programme, and by the Gates Foundation</div>
@@ -313,7 +313,7 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 <p><strong>Publications.</strong> Two peer-reviewed papers from this phase (ICTD 2016; ACM DEV 2016) document the card and app redesigns and the ways in which caregiver and vaccinator feedback shaped the system.</p>
 </div>
 
-<h3 class="project-h3">Next steps: two Gates Foundation grants</h3>
+<h3 class="project-h3">Next Steps: two Gates Foundation grants to make immunization data actionable</h3>
 <p>With immunization coverage rates of up to 99 percent showing up on the dashboard, the pilot left me wondering how much of the vaccination data reaching Punjab's dashboards was true. With <a href="https://armanrezaee.github.io/" target="_blank" rel="noopener">Arman Rezaee</a> (UC Davis) and <a href="https://www.umarsaif.org/" target="_blank" rel="noopener">Umar Saif</a> (ITU) as co-principal investigators, I led two Grand Challenges Explorations grants from the Gates Foundation to pursue it. The first, <a href="https://gcgh.grandchallenges.org/grant/using-data-driven-algorithms-detect-false-data-entries" target="_blank" rel="noopener">Using Data-Driven Algorithms to Detect False Data Entries</a> (2018), set out to train an algorithm on audited vaccination records. The second, <a href="https://gcgh.grandchallenges.org/grant/beyond-data-collection-actionable-insights-vaccinator-supervisors" target="_blank" rel="noopener">Beyond Data Collection: Actionable Insights to Vaccinator Supervisors</a> (2019), built an Android app that put front-line data in front of the mid-level supervisors who oversee vaccinators. Interviews with 30 supervisors across five districts of Punjab showed that data falsification by vaccinators was common and that supervisors had developed their own ways of catching it: triangulating across records, collecting supplementary data, spotting anomalies, and questioning vaccinators directly. Those findings shaped the supervisor app, which <a href="https://sites.google.com/nd.edu/amnabatool/datamonitoring?authuser=0" target="_blank" rel="noopener">Amna Batool</a> designed and tested with supervisors, and became a CHI 2021 paper with Amna as first author. The algorithm strand depended on access to the province's eVaccs records, which did not come through during the grant, so the supervisors' detection strategies documented in the paper stand as that grant's lasting contribution.</p>
 
 <h3 class="project-h3">Team</h3>
