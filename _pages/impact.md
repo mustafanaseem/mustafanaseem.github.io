@@ -228,6 +228,51 @@ summary.project-summary .project-intro {
 .pdf-link:hover {
   text-decoration: underline;
 }
+
+.show-more-wrap {
+  margin: 4px 0 6px 0;
+}
+
+button.show-more {
+  background: none;
+  border: 0;
+  padding: 4px 2px;
+  margin: 0;
+  font: inherit;
+  font-size: 15px;
+  color: #2a7ae2;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 4px;
+  line-height: 1.3;
+}
+
+button.show-more:hover .show-more-text {
+  text-decoration: underline;
+}
+
+button.show-more:focus {
+  outline: none;
+}
+
+button.show-more:focus-visible {
+  outline: 3px solid #4c8bf5;
+  outline-offset: 3px;
+}
+
+.show-more-arrow {
+  display: inline-block;
+  transition: transform 220ms ease;
+  font-size: 12px;
+  line-height: 1;
+  transform: rotate(0deg);
+}
+
+details.impact-project[open] > summary.project-summary .show-more-arrow {
+  transform: rotate(180deg);
+}
 </style>
 
 <div class="impact-lede">Selected projects and what came of them.</div>
@@ -239,7 +284,8 @@ summary.project-summary .project-intro {
 <span class="summary-chevron" aria-hidden="true"></span>
 </div>
 <div class="project-meta">Punjab, Pakistan · 2015&ndash;2017 · Principal investigator · Funded by DFID through the Sub-National Governance Programme</div>
-<p class="project-intro">A child's immunization record has to work for several people at once: a caregiver keeping track of the next visit, a vaccinator recording what happened, and a health system trying to reach every child. As principal investigator of Har Zindagi ("Every Life Matters"), I led a team working with Punjab's Expanded Program on Immunization to redesign that record end to end, pairing a more legible physical card with an Android app that vaccinators used to create digital records in the field.</p>
+<p class="project-intro">Har Zindagi ("Every Life Matters") began with a design contest. In 2013 the Gates Foundation invited redesigns of the home-based child health record, the card a family keeps through six vaccination visits and a vaccinator reads at each one. Our team at Information Technology University entered a bright yellow, laminated booklet that showed the next-visit date through a slit in its closed cover and used carbonless copies to carry each visit into a digital record. When the Sub-National Governance Programme (SNG, a DFID grantee) funded us to build the idea out, I led the Har Zindagi team in partnership with Punjab's Expanded Program on Immunization, pairing a card shaped by what families and vaccinators told us with an Android app that vaccinators used to create digital records in the field.</p>
+<div class="show-more-wrap"><button type="button" class="show-more" aria-expanded="false" aria-controls="har-zindagi"><span class="show-more-text">Read more</span><span class="show-more-arrow" aria-hidden="true">&#9662;</span></button></div>
 </summary>
 
 <div class="project-collapse">
@@ -290,6 +336,7 @@ summary.project-summary .project-intro {
 </div>
 <div class="project-meta">Lahore, Pakistan · 2017&ndash;2020 · U.S. principal investigator · Funded by the Pakistan-U.S. Science and Technology Cooperation Program</div>
 <p class="project-intro">Many families in Lahore collect their drinking water from public filtration plants: neighborhood taps run by the city's water utility, WASA Lahore, where the water is free and carried home in jerry cans. A utility that can see each plant at work can keep the water flowing, fix a leaking tap the day it starts, and plan where the next plant should go. Together with Dr. Tauseef Tauqeer at Information Technology University, Lahore, I co-led a three-year project to build a low-cost sensing unit that gives the utility that view, and to pair the engineering with fieldwork on how low-income residents of Lahore get their water.</p>
+<div class="show-more-wrap"><button type="button" class="show-more" aria-expanded="false" aria-controls="water-atms"><span class="show-more-text">Read more</span><span class="show-more-arrow" aria-hidden="true">&#9662;</span></button></div>
 </summary>
 
 <div class="project-collapse">
@@ -321,7 +368,7 @@ summary.project-summary .project-intro {
 </div>
 
 <h3 class="project-h3">Team</h3>
-<p>I was the U.S. principal investigator and co-led the project with Dr. Tauseef Tauqeer, the Pakistani principal investigator, whose Industrial Monitoring and Automation Lab at ITU designed, built, and maintained the units in the field. Zill Ullah Khan and M. Umair Anwar led the hardware and firmware work and are first authors on the MobiCom paper. Sabah Pirani led the qualitative study and wrote her master's thesis on it, co-advised by Kentaro Toyama. Faisal Lalani and Babatunde Adegoke are co-authors on the paper. Arman Rezaee at Michigan collaborated on the project. Haya Fatima Iqbal made the film.</p>
+<p>I was the U.S. principal investigator and co-led the project with Dr. Tauseef Tauqeer, the Pakistani principal investigator, whose Industrial Monitoring and Automation Lab at ITU designed, built, and maintained the units in the field. Zill Ullah Khan and M. Umair Anwar led the hardware and firmware work and are first authors on the MobiCom paper. Sabah Pirani led the qualitative study and wrote her <a href="https://deepblue.lib.umich.edu/items/625ace55-e69a-40db-a9eb-587129dbc82f" rel="noopener">master's thesis</a> on it, co-advised by Kentaro Toyama. Faisal Lalani and Babatunde Adegoke are co-authors on the paper. Arman Rezaee at Michigan collaborated on the project. Haya Fatima Iqbal made the film.</p>
 
 <h3 class="project-h3">Read the work</h3>
 <ul class="project-refs">
@@ -376,12 +423,26 @@ summary.project-summary .project-intro {
   for (var i = 0; i < projects.length; i++) {
     (function (d) {
       d.addEventListener('toggle', function () {
+        var btn = d.querySelector('button.show-more');
+        if (btn) {
+          btn.setAttribute('aria-expanded', d.open ? 'true' : 'false');
+          var txt = btn.querySelector('.show-more-text');
+          if (txt) txt.textContent = d.open ? 'Show less' : 'Read more';
+        }
         if (!d.open) return;
         if (window.history && typeof window.history.replaceState === 'function') {
           try { window.history.replaceState(null, '', '#' + d.id); } catch (e) {}
         }
         loadVideosIn(d);
       });
+      var showBtn = d.querySelector('button.show-more');
+      if (showBtn) {
+        showBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          d.open = !d.open;
+        });
+      }
     })(projects[i]);
   }
 
