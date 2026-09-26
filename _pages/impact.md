@@ -252,7 +252,7 @@ button.show-more {
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 0.25em;
   border-radius: 4px;
   line-height: 1.3;
 }
@@ -323,11 +323,16 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 <span class="summary-chevron" aria-hidden="true"></span>
 </div>
 <div class="project-meta">Punjab, Pakistan · 2015&ndash;2020 · Principal investigator · Funded by DFID through the Sub-National Governance Programme, and by the Gates Foundation</div>
-<p class="project-intro">Har Zindagi ("Every Life Matters") began with a design contest. In 2013 the Gates Foundation invited redesigns of the home-based child health record, the card a family keeps through six vaccination visits and a vaccinator reads at each one. Our team at Information Technology University entered a bright yellow, laminated booklet that showed the next-visit date through a slit in its closed cover and used carbonless copies to carry each visit into a digital record. When the Sub-National Governance Programme (SNG, a DFID grantee) funded us to build the idea out, I led the Har Zindagi team in partnership with Punjab's Expanded Program on Immunization, pairing a card shaped by what families and vaccinators told us with an Android app that vaccinators used to create digital records in the field. Two Gates Foundation grants later forced me to ask a harder question: whether the data such a system produces can be trusted.</p>
+<p class="project-intro">Har Zindagi ("Every Life Matters") began with a design contest. In 2013 the Gates Foundation invited redesigns of the home-based child health record, the card a family keeps through six vaccination visits and a vaccinator reads at each one. Our team at Information Technology University entered a bright yellow, laminated booklet that showed the next-visit date through a slit in its closed cover and used carbonless copies to carry each visit into a digital record. When the Sub-National Governance Programme (SNG, a DFID grantee) funded us to build the idea out, I led the Har Zindagi team in partnership with Punjab's Expanded Program on Immunization, pairing a card shaped by what families and vaccinators told us with an Android app that vaccinators used to create digital records in the field. Two Gates Foundation grants later led me to ask a harder question: whether the data such a system produces can be trusted.</p>
 <div class="show-more-wrap"><button type="button" class="show-more" aria-expanded="false" aria-controls="har-zindagi"><span class="show-more-text">Read more</span><span class="show-more-arrow" aria-hidden="true">&#9662;</span></button></div>
 </summary>
 
 <div class="project-collapse">
+
+<div class="stat-block">
+  <div class="stat-label">Seven-month pilot in Sahiwal and Sheikhupura; the Government of Punjab later adopted the card design and printed millions each year</div>
+  <div class="stat-headline">25,000 cards printed &middot; 20,000 children vaccinated &middot; 90,000 visits</div>
+</div>
 
 <figure class="project-figure">
   <img src="{{ base_path }}/images/harzindagi.png" alt="Photograph of the redesigned Har Zindagi immunization booklet, open to the six-week visit. The left page shows date-of-visit fields for OPV-1, Penta-1, PCV 10-1, and Rotavirus-1, each color coded and paired with an icon of the body system the vaccine protects. The right page marks the child's developmental stage in Urdu ('6-week-old child') and illustrates three milestones with pictorial captions." />
@@ -347,12 +352,12 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 
 <h3 class="project-h3">Seven-month field deployment</h3>
 <div class="in-practice">
-<p><strong>Pilot.</strong> Over seven months in Sahiwal and Sheikhupura, 50 government vaccinators used the app to create digital records for more than 20,000 children across more than 90,000 visits.</p>
+<p><strong>Pilot.</strong> Over seven months in Sahiwal and Sheikhupura, 50 government vaccinators used 25,000 printed booklets and the app to create digital records for more than 20,000 children vaccinated across more than 90,000 visits.</p>
 <p><strong>Adoption.</strong> The Government of Punjab adopted a modified version of the card's visual design and printed approximately four million cards annually; the NFC link and the app remained our research prototype.</p>
 <p><strong>Publications.</strong> Two peer-reviewed papers from this phase (ICTD 2016; ACM DEV 2016) document the card and app redesigns and the ways in which caregiver and vaccinator feedback shaped the system.</p>
 </div>
 
-<h3 class="project-h3">Next Steps: two Gates Foundation grants to make immunization data actionable</h3>
+<h3 class="project-h3">Next steps: two Gates Foundation grants to make immunization data actionable</h3>
 <p>With immunization coverage rates of up to 99 percent showing up on the dashboard, the pilot left me wondering how much of the vaccination data reaching Punjab's dashboards was true. With <a href="https://armanrezaee.github.io/" target="_blank" rel="noopener">Arman Rezaee</a> (UC Davis) and <a href="https://www.umarsaif.org/" target="_blank" rel="noopener">Umar Saif</a> (ITU) as co-principal investigators, I led two Grand Challenges Explorations grants from the Gates Foundation to pursue it. The first, <a href="https://gcgh.grandchallenges.org/grant/using-data-driven-algorithms-detect-false-data-entries" target="_blank" rel="noopener">Using Data-Driven Algorithms to Detect False Data Entries</a> (2018), set out to train an algorithm on audited vaccination records. The second, <a href="https://gcgh.grandchallenges.org/grant/beyond-data-collection-actionable-insights-vaccinator-supervisors" target="_blank" rel="noopener">Beyond Data Collection: Actionable Insights to Vaccinator Supervisors</a> (2019), built an Android app that put front-line data in front of the mid-level supervisors who oversee vaccinators. Interviews with 30 supervisors across five districts of Punjab showed that data falsification by vaccinators was common and that supervisors had developed their own ways of catching it: triangulating across records, collecting supplementary data, spotting anomalies, and questioning vaccinators directly. Those findings shaped the supervisor app, which <a href="https://sites.google.com/nd.edu/amnabatool/datamonitoring?authuser=0" target="_blank" rel="noopener">Amna Batool</a> designed and tested with supervisors, and became a CHI 2021 paper with Amna as first author. The algorithm strand depended on access to the province's eVaccs records, which did not come through during the grant, so the supervisors' detection strategies documented in the paper stand as that grant's lasting contribution.</p>
 
 <h3 class="project-h3">Team</h3>
@@ -360,11 +365,11 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 
 <h3 class="project-h3">Read the work</h3>
 <ul class="project-refs">
-  <li><a href="{{ base_path }}/files/chi2021_intentioanldatafalsification-2.pdf" target="_blank" rel="noopener">Detecting Data Falsification by Front-line Development Workers: A Case Study of Vaccination in Pakistan</a>. Batool, A., Toyama, K., Veinot, T., Fatima, B., &amp; <strong>Naseem, M.</strong> (2021). <em>CHI 2021</em>. DOI: <a href="https://doi.org/10.1145/3411764.3445630">10.1145/3411764.3445630</a>.</li>
-  <li><a href="{{ base_path }}/files/2016_immunization information system.pdf" target="_blank" rel="noopener">Iterative Design of an Immunization Information System in Pakistan</a>. Razaq, S., Batool, A., Ali, U., Khalid, M. S., Saif, U., &amp; <strong>Naseem, M.</strong> (2016). <em>ACM DEV 2016</em>. DOI: <a href="https://doi.org/10.1145/3001913.3001925">10.1145/3001913.3001925</a>.</li>
-  <li><a href="{{ base_path }}/files/2016_Immunization card redesign.pdf" target="_blank" rel="noopener">Child Immunization Health Card Redesign: an Iterative, User-Centered Approach</a>. Batool, A., Ali, U., Razaq, S., &amp; <strong>Naseem, M.</strong> (2016). <em>ICTD 2016</em>.</li>
+  <li>Batool, A., Toyama, K., Veinot, T., Fatima, B., &amp; <strong>Naseem, M.</strong> (2021). <a href="{{ base_path }}/files/chi2021_intentioanldatafalsification-2.pdf" target="_blank" rel="noopener">Detecting Data Falsification by Front-line Development Workers: A Case Study of Vaccination in Pakistan</a>. <em>CHI 2021</em>. DOI: <a href="https://doi.org/10.1145/3411764.3445630">10.1145/3411764.3445630</a>.</li>
+  <li>Razaq, S., Batool, A., Ali, U., Khalid, M. S., Saif, U., &amp; <strong>Naseem, M.</strong> (2016). <a href="{{ base_path }}/files/2016_immunization information system.pdf" target="_blank" rel="noopener">Iterative Design of an Immunization Information System in Pakistan</a>. <em>ACM DEV 2016</em>. DOI: <a href="https://doi.org/10.1145/3001913.3001925">10.1145/3001913.3001925</a>.</li>
+  <li>Batool, A., Ali, U., Razaq, S., &amp; <strong>Naseem, M.</strong> (2016). <a href="{{ base_path }}/files/2016_Immunization card redesign.pdf" target="_blank" rel="noopener">Child Immunization Health Card Redesign: an Iterative, User-Centered Approach</a>. <em>ICTD 2016</em>.</li>
   <li>Amna Batool. Project pages on the <a href="https://sites.google.com/nd.edu/amnabatool/immunization?authuser=0" target="_blank" rel="noopener">card redesign</a>, the <a href="https://sites.google.com/nd.edu/amnabatool/vaccination?authuser=0" target="_blank" rel="noopener">Har Zindagi app</a>, and the <a href="https://sites.google.com/nd.edu/amnabatool/datamonitoring?authuser=0" target="_blank" rel="noopener">supervisor data-monitoring app</a>.</li>
-  <li>Ali Murtaza. Har Zindagi (Every Life) Immunization Program Design. <em>Behance</em>. <a href="https://www.behance.net/gallery/48482987/Har-Zindagi-(Every-Life)-Immunization-Program-Design" target="_blank" rel="noopener" class="pdf-link">[link]</a></li>
+  <li>Ali Murtaza. <a href="https://www.behance.net/gallery/48482987/Har-Zindagi-(Every-Life)-Immunization-Program-Design" target="_blank" rel="noopener">Har Zindagi (Every Life) Immunization Program Design</a>. <em>Behance</em>.</li>
 </ul>
 
 </div>
@@ -384,6 +389,11 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 </summary>
 
 <div class="project-collapse">
+
+<div class="stat-block">
+  <div class="stat-label">Six WASA Lahore filtration plants, October 2019 to March 2020</div>
+  <div class="stat-headline">42,000 transactions &middot; 1.28 million liters &middot; 6 plants</div>
+</div>
 
 <figure class="project-figure">
   <div class="video-embed" data-video-src="https://www.youtube.com/embed/TSojzm678kM" data-video-title="Water ATMs, a five-minute documentary by Haya Fatima Iqbal">
@@ -407,18 +417,20 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 <div class="in-practice">
 <p><strong>Deployment.</strong> After a six-month pilot at one plant, we signed a memorandum of understanding with WASA Lahore and installed units at six of its filtration plants. The units logged more than 42,000 transactions and 1.28 million liters of drinking water, streamed live to a web dashboard that WASA staff and policymakers could open from anywhere.</p>
 <p><strong>Film.</strong> Documentary filmmaker Haya Fatima Iqbal made a five-minute film about the project, in which WASA's managing director describes the system identifying faults automatically and the utility's goal of bringing every WASA installation online.</p>
-<p><strong>What lasted.</strong> Tauseef's lab at ITU went on to win funding from WASA to monitor Lahore's tube wells, and he founded a company to take the monitoring units to market. ITU's D-Lab course used the project as a case study in designing for underserved communities.</p>
 <p><strong>Publications.</strong> A MobiCom 2020 poster describes the unit and the data pipeline, and Sabah Pirani's master's thesis presents the qualitative study.</p>
 </div>
 
+<h3 class="project-h3">Next steps: from six plants to the whole utility</h3>
+<p>WASA's managing director set the goal on camera: every WASA installation monitored online, and a utility that runs on data rather than paper. Tauseef's lab at ITU went on to win funding from WASA to monitor Lahore's tube wells, and he founded a company to take the monitoring units to market. ITU's D-Lab course used the project as a case study in designing for underserved communities, so the next cohort of engineers in Lahore learned the method on this problem.</p>
+
 <h3 class="project-h3">Team</h3>
-<p>I was the U.S. principal investigator and co-led the project with Dr. Tauseef Tauqeer, the Pakistani principal investigator, whose Industrial Monitoring and Automation Lab at ITU designed, built, and maintained the units in the field. Zill Ullah Khan and M. Umair Anwar led the hardware and firmware work and are first authors on the MobiCom paper. Sabah Pirani led the qualitative study and wrote her <a href="https://deepblue.lib.umich.edu/items/625ace55-e69a-40db-a9eb-587129dbc82f" rel="noopener">master's thesis</a> on it, co-advised by Kentaro Toyama. Faisal Lalani and Babatunde Adegoke are co-authors on the paper. Arman Rezaee at Michigan collaborated on the project. Haya Fatima Iqbal made the film.</p>
+<p>I was the U.S. principal investigator and co-led the project with Dr. Tauseef Tauqeer, the Pakistani principal investigator, whose Industrial Monitoring and Automation Lab at ITU designed, built, and maintained the units in the field. Zill Ullah Khan and M. Umair Anwar led the hardware and firmware work and are first authors on the MobiCom paper. Sabah Pirani led the qualitative study and wrote her <a href="https://deepblue.lib.umich.edu/items/625ace55-e69a-40db-a9eb-587129dbc82f" rel="noopener">master's thesis</a> on it, co-advised by Kentaro Toyama. Faisal Lalani and Babatunde Adegoke are co-authors on the paper. Arman Rezaee of UC Davis collaborated on the project. Haya Fatima Iqbal made the film.</p>
 
 <h3 class="project-h3">Read the work</h3>
 <ul class="project-refs">
-  <li>Khan, Z. U., Anwar, M. U., Pirani, S., Lalani, F., Adegoke, B., Tauqeer, T., &amp; <strong>Naseem, M.</strong> (2020). Poster: Design of an IoT-based water flow monitoring system. <em>MobiCom 2020</em>. DOI: <a href="https://doi.org/10.1145/3372224.3418170">10.1145/3372224.3418170</a>.</li>
-  <li>Pirani, S. (2020). Differential Access: Water Infrastructure and Water Quality Awareness among Lahore's Urban Poor. <em>Master's thesis, University of Michigan School of Information</em>. DOI: <a href="https://doi.org/10.7302/1714">10.7302/1714</a>.</li>
-  <li>Haya Fatima Iqbal (dir.). (2020). <em>Water ATMs: Design and Testing of Water Dispensing and Quality Measurement Units in Lahore</em>. Five-minute documentary. Link: <a href="https://youtu.be/TSojzm678kM">https://youtu.be/TSojzm678kM</a></li>
+  <li>Khan, Z. U., Anwar, M. U., Pirani, S., Lalani, F., Adegoke, B., Tauqeer, T., &amp; <strong>Naseem, M.</strong> (2020). <a href="https://doi.org/10.1145/3372224.3418170" target="_blank" rel="noopener">Poster: Design of an IoT-based water flow monitoring system</a>. <em>MobiCom 2020</em>. DOI: <a href="https://doi.org/10.1145/3372224.3418170">10.1145/3372224.3418170</a>.</li>
+  <li>Pirani, S. (2020). <a href="https://doi.org/10.7302/1714" target="_blank" rel="noopener">Differential Access: Water Infrastructure and Water Quality Awareness among Lahore's Urban Poor</a>. <em>Master's thesis, University of Michigan School of Information</em>. DOI: <a href="https://doi.org/10.7302/1714">10.7302/1714</a>.</li>
+  <li>Haya Fatima Iqbal (dir.). (2020). <em><a href="https://youtu.be/TSojzm678kM" target="_blank" rel="noopener">Water ATMs: Design and Testing of Water Dispensing and Quality Measurement Units in Lahore</a></em>. Five-minute documentary.</li>
 </ul>
 
 </div>
@@ -438,6 +450,11 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 </summary>
 
 <div class="project-collapse">
+
+<div class="stat-block">
+  <div class="stat-label">Urdu service 2018 and Pashto service 2023&ndash;2024</div>
+  <div class="stat-headline">27,700 fathers &middot; 67,000 calls &middot; 3,784 questions answered by doctors</div>
+</div>
 
 <figure class="project-figure">
   <div class="video-embed" data-video-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2319115705080021&amp;show_text=false&amp;t=0" data-video-title="BBC Urdu report on Super Abbu">
@@ -459,20 +476,23 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 
 <h3 class="project-h3">Field deployments</h3>
 <div class="in-practice">
-<p><strong>Impact evaluation.</strong> With Arman Rezaee as principal investigator and Sarojini Hirshleifer, Agha Ali Raza, and me as co-principal investigators, an <a href="https://www.fic.nih.gov/Grants/Search/Pages/mhealth-r21hd095696.aspx" target="_blank" rel="noopener">NIH Fogarty mHealth grant</a> (2018&ndash;2023) set out to evaluate Super Abbu in Punjab. Its 2021 survey of 199 expectant couples, led by Sacha Ahmad and presented at APHA 2022, is the source of the figures above and the first evidence that both husbands and wives in rural Punjab want men more involved. When Covid arrived, the team redirected the grant toward delivering Covid-19 health information over Baang, a voice-based social network, and studying how misinformation travelled there.</p>
+<p><strong>Impact evaluation.</strong> With Arman Rezaee as principal investigator and Sarojini Hirshleifer, Agha Ali Raza, and me as co-principal investigators, an <a href="https://www.fic.nih.gov/Grants/Search/Pages/mhealth-r21hd095696.aspx" target="_blank" rel="noopener">NIH Fogarty mHealth grant</a> (2018&ndash;2023) set out to evaluate Super Abbu in Punjab. Its 2021 survey of 199 expectant couples, led by Sacha Ahmad and presented at APHA 2022, is the source of the figures above and the first evidence that both husbands and wives in rural Punjab want men more involved. When Covid arrived, the team redirected the grant toward delivering Covid-19 health information <a href="#baang-covid">over Baang</a>, a voice-based social network, and studying how misinformation travelled there.</p>
 <p><strong>Khpal Tabeeb.</strong> As lead principal investigator on a Gates Foundation grant (2021&ndash;2024), I led the launch of a Pashto-language service for Khyber Pakhtunkhwa, with Agha Ali Raza running implementation at LUMS and Arman Rezaee leading evaluation. Community mobilizers told us that "Super Dad" meant little to Pashto speakers, so we renamed the service Khpal Tabeeb, "our doctor", and advertised it on Pashto radio in Peshawar, Bannu, and North and South Waziristan. Doctors from Khyber Medical University answered questions, and priority content on immunization and postnatal care was written with the provincial EPI cell and the Federal Directorate of Immunization. From March 2023 the service took 34,507 calls from 6,008 users, who asked 1,906 questions and played the immunization content 9,566 times. Focus groups with families who had refused vaccination were presented to health experts at the Federal Directorate of Immunization.</p>
-<p><strong>Key findings.</strong> A voice-based social network that had spread Super Abbu in Punjab drew a loyal Pashto audience but sent few users on to the health service; radio and community mobilizers did the recruiting, and the 346 users who did arrive through the social network stayed eight times longer. Pashto users also treated the service differently from users in Punjab: they posted no stories of their own, even after we seeded the stories menu with earlier Super Abbu stories re-recorded in Pashto, and almost every question they asked was marked private. Maternal and child health is private information in Khyber Pakhtunkhwa in a way it was not in Punjab, an expression of purdah that any service for this region has to design around. Fathers also wanted more than information: many asked for a diagnosis, which an asynchronous service cannot responsibly give, and that gap points to the next design.</p>
+<p><strong>Key findings.</strong> A voice-based social network that had spread Super Abbu in Punjab drew a loyal Pashto audience but sent few users on to the health service; radio and community mobilizers did the recruiting, and the 346 users who did arrive through the social network stayed eight times longer. Pashto users also treated the service differently from users in Punjab: they posted no stories of their own, even after we seeded the stories menu with earlier Super Abbu stories re-recorded in Pashto, and almost every question they asked was marked private. Maternal and child health is private information in Khyber Pakhtunkhwa in a way it was not in Punjab, an expression of purdah that any service for this region has to design around.</p>
 </div>
+
+<h3 class="project-h3">Next steps: a service that can follow a father's case</h3>
+<p>Fathers wanted more than information. Many asked for a diagnosis, and an asynchronous service that pairs one recorded question with one recorded answer cannot responsibly give one. The next version needs to let a doctor see every question a father has asked in a single thread, let the father hear every answer in one place, and, for those with smartphones, accept a photograph of a test result so that the doctor can respond to the case rather than the question. Each of those steps trades some of the reach of a plain phone call for depth, and finding the right balance for Khyber Pakhtunkhwa is the design problem we are working on now.</p>
 
 <h3 class="project-h3">Team</h3>
 <p>I organized the 2016 summit where Rehemaa was born, was part of the leadership team that redesigned it as Super Abbu, served as co-principal investigator on the NIH grant, and was lead principal investigator on the Gates-funded Khpal Tabeeb. The original Rehemaa team was <a href="https://www.linkedin.com/in/sachastongeahmad/" target="_blank" rel="noopener">Sacha Ahmad</a>, Kim Chatterjee, Ehsam Ullah Baig, Umair Anwar, and Faran Sikandar, facilitated by Claudine Chen. <a href="https://aghaaliraza.com/" target="_blank" rel="noopener">Agha Ali Raza</a>, then at ITU and now at LUMS, was principal investigator on the UNICEF grant and led implementation throughout; his Center for Speech and Language Technology built and ran the platform. <a href="https://armanrezaee.github.io/" target="_blank" rel="noopener">Arman Rezaee</a> of UC Davis was principal investigator on the NIH grant and led evaluation on Khpal Tabeeb, with <a href="https://profiles.ucr.edu/app/home/profile/shirsh" target="_blank" rel="noopener">Sarojini Hirshleifer</a> of UC Riverside as co-principal investigator. Sacha Ahmad led the couples survey and is first author on the APHA paper. Bilal Saleem and Jay Chen co-authored the CHI 2020 paper. Doctors from a Lahore hospital and from Khyber Medical University answered the questions.</p>
 
 <h3 class="project-h3">Read the work</h3>
 <ul class="project-refs">
-  <li><a href="{{ base_path }}/files/chi2020_superabbuads-7.pdf" target="_blank" rel="noopener">An Empirical Comparison of Technologically Mediated Advertising in Under-connected Populations</a>. <strong>Naseem, M.</strong>, Saleem, B., Ahmad, S. S., Chen, J., &amp; Raza, A. A. (2020). <em>CHI 2020</em>, Best Paper Honorable Mention. DOI: <a href="https://doi.org/10.1145/3313831.3376683">10.1145/3313831.3376683</a>.</li>
-  <li><a href="https://apha.confex.com/apha/2022/meetingapi.cgi/Paper/516094?filename=2022_Abstract516094.html&amp;template=Word" target="_blank" rel="noopener">Ahmad, S. S., Hirshleifer, S., <strong>Naseem, M.</strong>, Rezaee, A., &amp; Raza, A. A. (2022). Perceptions of Paternal Involvement in Maternal Healthcare in Rural Pakistan. <em>APHA 2022 Annual Meeting and Expo</em>.</a></li>
+  <li><strong>Naseem, M.</strong>, Saleem, B., Ahmad, S. S., Chen, J., &amp; Raza, A. A. (2020). <a href="{{ base_path }}/files/chi2020_superabbuads-7.pdf" target="_blank" rel="noopener">An Empirical Comparison of Technologically Mediated Advertising in Under-connected Populations</a>. <em>CHI 2020</em>, Best Paper Honorable Mention. DOI: <a href="https://doi.org/10.1145/3313831.3376683">10.1145/3313831.3376683</a>.</li>
+  <li>Ahmad, S. S., Hirshleifer, S., <strong>Naseem, M.</strong>, Rezaee, A., &amp; Raza, A. A. (2022). <a href="https://apha.confex.com/apha/2022/meetingapi.cgi/Paper/516094?filename=2022_Abstract516094.html&amp;template=Word" target="_blank" rel="noopener">Perceptions of Paternal Involvement in Maternal Healthcare in Rural Pakistan</a>. <em>APHA 2022 Annual Meeting and Expo</em>.</li>
   <li>Taboo Topics and Misconceptions: Design and Deployment of a Health Hotline for Expectant Fathers. Unpublished manuscript, 2022.</li>
-  <li>BBC Urdu. Report on Super Abbu. <a href="https://www.facebook.com/watch/?v=2319115705080021" target="_blank" rel="noopener">https://www.facebook.com/watch/?v=2319115705080021</a></li>
+  <li>BBC Urdu. <a href="https://www.facebook.com/watch/?v=2319115705080021" target="_blank" rel="noopener">Report on Super Abbu</a>.</li>
 </ul>
 
 </div>
@@ -520,15 +540,18 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
 <h3 class="project-h3">Key findings</h3>
 <p>Reliable information can travel through the same social channels as rumor when the platform gives people a reason to share it; incentives tied to sharing official posts raised engagement across the board. Heavy-handed moderation carried a price in this setting: users disliked it, used the platform less, and ended up hearing less official guidance. In my own qualitative analysis of the 42 distinct myths that circulated, reported in my doctoral dissertation, most misinformation read as an attempt at community care: people relaying a remedy that had helped a neighbor, framing prevention in religious or traditional terms, or arguing for schools to reopen because families around them were going hungry. The voice medium gave those posts an intimacy that text cannot, which is why they persuaded, and why any response has to engage with the care behind them.</p>
 
+<h3 class="project-h3">Next steps: moderating with the community rather than against it</h3>
+<p>The experiment showed the cost of removing misinformation before anyone hears it, and the qualitative analysis showed why: most of it was posted by people trying to help. The design that follows treats a false post as an opening rather than a violation, pairing it with a rebuttal in the same voice and register, inviting the poster and the community into the correction, and reserving removal for the small share of content that is dangerous. Voice platforms make this possible in a way text platforms rarely do, because the intimacy that makes misinformation persuasive on Baang also makes a considered reply persuasive.</p>
+
 <h3 class="project-h3">Team</h3>
 <p>I was co-principal investigator and led the design of the engagement incentives; the qualitative analysis of misinformation on the platform forms a chapter of my doctoral dissertation. <a href="https://aghaaliraza.com/" target="_blank" rel="noopener">Agha Ali Raza</a> of LUMS created Baang and led its redeployment, content translation, and moderation; Namoos Hayat Qasmi, Fizzah Malik, and Behzad Taimur at LUMS ran the platform day to day. <a href="https://armanrezaee.github.io/" target="_blank" rel="noopener">Arman Rezaee</a> of UC Davis and <a href="https://profiles.ucr.edu/app/home/profile/shirsh" target="_blank" rel="noopener">Sarojini Hirshleifer</a> of UC Riverside designed and led the moderation experiment. Shan Randhawa at Michigan, <a href="https://www.linkedin.com/in/sachastongeahmad/" target="_blank" rel="noopener">Sacha Ahmad</a>, and Aditya Vashistha of Cornell co-authored the Web Conference paper.</p>
 
 <h3 class="project-h3">Read the work</h3>
 <ul class="project-refs">
-  <li>Hirshleifer, S., <strong>Naseem, M.</strong>, Raza, A. A., &amp; Rezaee, A. (2026). The spread of (mis)information: A social media experiment in Pakistan. <em>Journal of Development Economics</em>, 183, 103784. DOI: <a href="https://doi.org/10.1016/j.jdeveco.2026.103784">10.1016/j.jdeveco.2026.103784</a>.</li>
-  <li>Raza, A. A., <strong>Naseem, M.</strong>, Qasmi, N. H., Randhawa, S., Malik, F., Taimur, B., Ahmad, S. S., Hirshleifer, S., Rezaee, A., &amp; Vashistha, A. (2022). Fostering Engagement of Underserved Communities with Credible Health Information on Social Media. <em>The Web Conference 2022 (WWW '22)</em>. DOI: <a href="https://doi.org/10.1145/3485447.3512267">10.1145/3485447.3512267</a>.</li>
+  <li>Hirshleifer, S., <strong>Naseem, M.</strong>, Raza, A. A., &amp; Rezaee, A. (2026). <a href="https://doi.org/10.1016/j.jdeveco.2026.103784" target="_blank" rel="noopener">The spread of (mis)information: A social media experiment in Pakistan</a>. <em>Journal of Development Economics</em>, 183, 103784. DOI: <a href="https://doi.org/10.1016/j.jdeveco.2026.103784">10.1016/j.jdeveco.2026.103784</a>.</li>
+  <li>Raza, A. A., <strong>Naseem, M.</strong>, Qasmi, N. H., Randhawa, S., Malik, F., Taimur, B., Ahmad, S. S., Hirshleifer, S., Rezaee, A., &amp; Vashistha, A. (2022). <a href="https://doi.org/10.1145/3485447.3512267" target="_blank" rel="noopener">Fostering Engagement of Underserved Communities with Credible Health Information on Social Media</a>. <em>The Web Conference 2022 (WWW '22)</em>. DOI: <a href="https://doi.org/10.1145/3485447.3512267">10.1145/3485447.3512267</a>.</li>
   <li><strong>Naseem, M.</strong> Doctoral dissertation, University of Michigan. The dissertation is embargoed while its findings are prepared for publication; the chapter on Covid-19 misinformation on Baang is available on request.</li>
-  <li><a href="https://dl.acm.org/doi/abs/10.1145/3173574.3174217" target="_blank" rel="noopener">Raza, A. A., Saleem, B., Randhawa, S., Tariq, Z., Athar, A., Saif, U., &amp; Rosenfeld, R. (2018). Baang: A Viral Speech-based Social Platform for Under-Connected Populations. <em>CHI 2018</em>. DOI: 10.1145/3173574.3174217.</a></li>
+  <li>Raza, A. A., Saleem, B., Randhawa, S., Tariq, Z., Athar, A., Saif, U., &amp; Rosenfeld, R. (2018). <a href="https://dl.acm.org/doi/abs/10.1145/3173574.3174217" target="_blank" rel="noopener">Baang: A Viral Speech-based Social Platform for Under-Connected Populations</a>. <em>CHI 2018</em>. DOI: <a href="https://doi.org/10.1145/3173574.3174217">10.1145/3173574.3174217</a>.</li>
 </ul>
 
 </div>
