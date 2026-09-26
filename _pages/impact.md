@@ -273,6 +273,33 @@ button.show-more:focus-visible {
 details.impact-project[open] > summary.project-summary .show-more-arrow {
   transform: rotate(180deg);
 }
+
+.stat-block {
+  margin: 8px 0 26px 0;
+}
+
+.stat-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #6a7480;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.stat-headline {
+  font-size: 30px;
+  font-weight: 700;
+  color: #0051a5;
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+}
+
+@media (max-width: 640px) {
+  .stat-headline {
+    font-size: 24px;
+  }
+}
 </style>
 
 <div class="impact-lede">Selected projects and what came of them.</div>
@@ -434,6 +461,62 @@ details.impact-project[open] > summary.project-summary .show-more-arrow {
   <li><a href="https://apha.confex.com/apha/2022/meetingapi.cgi/Paper/516094?filename=2022_Abstract516094.html&amp;template=Word" target="_blank" rel="noopener">Ahmad, S. S., Hirshleifer, S., <strong>Naseem, M.</strong>, Rezaee, A., &amp; Raza, A. A. (2022). Perceptions of Paternal Involvement in Maternal Healthcare in Rural Pakistan. <em>APHA 2022 Annual Meeting and Expo</em>.</a></li>
   <li>Taboo Topics and Misconceptions: Design and Deployment of a Health Hotline for Expectant Fathers. Unpublished manuscript, 2022.</li>
   <li>BBC Urdu. Report on Super Abbu. <a href="https://www.facebook.com/watch/?v=2319115705080021" target="_blank" rel="noopener">https://www.facebook.com/watch/?v=2319115705080021</a></li>
+</ul>
+
+</div>
+
+</div>
+</details>
+
+<details class="impact-project" id="baang-covid">
+<summary class="project-summary">
+<div class="summary-head">
+<h2 class="project-title">Baang during Covid-19: Trusted health information on a voice-based social network</h2>
+<span class="summary-chevron" aria-hidden="true"></span>
+</div>
+<div class="project-meta">Pakistan · 2020&ndash;2026 · Co-principal investigator · Funded by the NIH Fogarty International Center</div>
+<p class="project-intro">When Covid-19 reached Pakistan in March 2020, the people least likely to see a government advisory were those without internet, without literacy, and without much reason to trust official sources. <a href="https://dl.acm.org/doi/abs/10.1145/3173574.3174217" target="_blank" rel="noopener">Baang</a> is a voice-based social network, built by Agha Ali Raza's lab, that people use over an ordinary phone call to record and hear each other's posts. On April 2, 2020, Ali, Arman Rezaee, Sarojini Hirshleifer, and I, who were already collaborating on the Super Abbu evaluation, relaunched Baang as a channel for reliable Covid information. Over six months it took half a million calls from 12,000 people across Pakistan, who listened to official guidance, argued with it, shared it with friends, and told the government what they thought of its lockdowns.</p>
+<div class="show-more-wrap"><button type="button" class="show-more" aria-expanded="false" aria-controls="baang-covid"><span class="show-more-text">Read more</span><span class="show-more-arrow" aria-hidden="true">&#9662;</span></button></div>
+</summary>
+
+<div class="project-collapse">
+
+<div class="stat-block">
+  <div class="stat-label">Baang during Covid-19, April to October 2020</div>
+  <div class="stat-headline">500,000 calls &middot; 12,000 users &middot; 6 months</div>
+</div>
+
+<figure class="project-figure">
+  <img src="{{ base_path }}/images/SuperAbbuPicture.png" alt="A father in a white shalwar kameez speaks on a mobile phone, seated on the grass beside his wife and young son, in Lahore." />
+  <figcaption>A phone call reaches the whole family. A father takes a call in Lahore while his wife and son look on. Photograph by Abdullah Kharal.</figcaption>
+</figure>
+
+<div class="project-body">
+
+<h3 class="project-h3">Motivation</h3>
+<p>A poll in 2020 found that 97 percent of Pakistanis held at least one misconception about the coronavirus (Ipsos poll). Text messages, apps, and websites reach the connected and the literate; a voice call reaches nearly everyone, and Baang had already shown that low-income, low-literate men would call in by the thousands to talk to each other. The question was whether a platform built for entertainment could carry health information that people would trust, listen to, and pass on, and what would happen to that flow of information when the platform started policing what was false.</p>
+
+<h3 class="project-h3">Redesigning Baang for a pandemic</h3>
+<p>Ali's lab at LUMS translated advisories from Pakistan's National Institutes of Health and the government into Urdu, had a bilingual public health expert check every translation, and recorded them as official posts that a new menu option played before anything else. Every user post and comment passed a moderator within four hours. I led the design of the incentives: Baang was made toll-free, each user received 30 free minutes a day, and users earned more minutes by sharing an official post with a friend who answered the call, by bringing a new user onto the platform, and more still if that new user stayed on the line or called back. Pinned posts asked users to think about where their information came from before they passed it on. Users who received all three, the official posts, the incentives, and the prompts, engaged with Covid content at significantly higher rates than the rest, a result reported at The Web Conference 2022.</p>
+
+<h3 class="project-h3">Six months, 12,000 users</h3>
+<p>Between April and October 2020, 12,000 people, 96 percent of them with fewer than ten years of schooling, placed nearly half a million calls to Baang. They recorded more than 35,000 posts, played them 2.4 million times, voted on them 322,000 times, and shared them with other users more than 130,000 times. The platform became a public square as much as a bulletin board: alongside questions about symptoms and prevention, users posted their views on school closures, mosque restrictions, and the cost of lockdown to people paid by the day.</p>
+
+<h3 class="project-h3">The moderation experiment</h3>
+<p>Arman and Sarojini designed a randomized experiment, run from June 27 to August 26, 2020 with 3,698 users, to ask a question most platforms cannot test: what happens when misinformation is removed before anyone sees it? Users were assigned to one of three conditions. In the control, moderators took misinformation down after it was posted, as most platforms do. In the second, misinformation was never posted. In the third, it was posted alongside a rebuttal carrying the official guidance. The results, published in the Journal of Development Economics in 2026, showed that fully controlling misinformation cut daily users by 19 percent and daily minutes by 26 percent, and reduced users' exposure to official information by 29 percent more than it reduced their exposure to misinformation. On this platform, official information was the more trusted content and the more widely shared, so the heavier moderation cost more good information than bad.</p>
+
+<h3 class="project-h3">Key findings</h3>
+<p>Reliable information can travel through the same social channels as rumor when the platform gives people a reason to share it; incentives tied to sharing official posts raised engagement across the board. Heavy-handed moderation carried a price in this setting: users disliked it, used the platform less, and ended up hearing less official guidance. In my own qualitative analysis of the 42 distinct myths that circulated, reported in my doctoral dissertation, most misinformation read as an attempt at community care: people relaying a remedy that had helped a neighbor, framing prevention in religious or traditional terms, or arguing for schools to reopen because families around them were going hungry. The voice medium gave those posts an intimacy that text cannot, which is why they persuaded, and why any response has to engage with the care behind them.</p>
+
+<h3 class="project-h3">Team</h3>
+<p>I was co-principal investigator and led the design of the engagement incentives; the qualitative analysis of misinformation on the platform forms a chapter of my doctoral dissertation. <a href="https://aghaaliraza.com/" target="_blank" rel="noopener">Agha Ali Raza</a> of LUMS created Baang and led its redeployment, content translation, and moderation; Namoos Hayat Qasmi, Fizzah Malik, and Behzad Taimur at LUMS ran the platform day to day. <a href="https://armanrezaee.github.io/" target="_blank" rel="noopener">Arman Rezaee</a> of UC Davis and <a href="https://profiles.ucr.edu/app/home/profile/shirsh" target="_blank" rel="noopener">Sarojini Hirshleifer</a> of UC Riverside designed and led the moderation experiment. Shan Randhawa at Michigan, <a href="https://www.linkedin.com/in/sachastongeahmad/" target="_blank" rel="noopener">Sacha Ahmad</a>, and Aditya Vashistha of Cornell co-authored the Web Conference paper.</p>
+
+<h3 class="project-h3">Read the work</h3>
+<ul class="project-refs">
+  <li>Hirshleifer, S., <strong>Naseem, M.</strong>, Raza, A. A., &amp; Rezaee, A. (2026). The spread of (mis)information: A social media experiment in Pakistan. <em>Journal of Development Economics</em>, 183, 103784. DOI: <a href="https://doi.org/10.1016/j.jdeveco.2026.103784">10.1016/j.jdeveco.2026.103784</a>.</li>
+  <li>Raza, A. A., <strong>Naseem, M.</strong>, Qasmi, N. H., Randhawa, S., Malik, F., Taimur, B., Ahmad, S. S., Hirshleifer, S., Rezaee, A., &amp; Vashistha, A. (2022). Fostering Engagement of Underserved Communities with Credible Health Information on Social Media. <em>The Web Conference 2022 (WWW '22)</em>. DOI: <a href="https://doi.org/10.1145/3485447.3512267">10.1145/3485447.3512267</a>.</li>
+  <li><strong>Naseem, M.</strong> Doctoral dissertation, University of Michigan. The dissertation is embargoed while its findings are prepared for publication; the chapter on Covid-19 misinformation on Baang is available on request.</li>
+  <li><a href="https://dl.acm.org/doi/abs/10.1145/3173574.3174217" target="_blank" rel="noopener">Raza, A. A., Saleem, B., Randhawa, S., Tariq, Z., Athar, A., Saif, U., &amp; Rosenfeld, R. (2018). Baang: A Viral Speech-based Social Platform for Under-Connected Populations. <em>CHI 2018</em>. DOI: 10.1145/3173574.3174217.</a></li>
 </ul>
 
 </div>
