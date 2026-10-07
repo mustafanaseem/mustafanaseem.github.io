@@ -42,3 +42,10 @@ author_profile: true
 <p class="project-intro">When Covid-19 reached Pakistan in March 2020, the people least likely to see a government advisory were those without internet, without literacy, and without much reason to trust official sources. <a href="https://dl.acm.org/doi/abs/10.1145/3173574.3174217" target="_blank" rel="noopener">Baang</a> is a voice-based social network, built by Agha Ali Raza's lab, that people use over an ordinary phone call to record and hear each other's posts. On April 2, 2020, Ali, Arman Rezaee, Sarojini Hirshleifer, and I, who were already collaborating on the Super Abbu evaluation, relaunched Baang as a channel for reliable Covid information. Over six months it took half a million calls from 12,000 people across Pakistan, who listened to official guidance, argued with it, shared it with friends, and told the government what they thought of its lockdowns.</p>
 <div class="read-more-wrap"><a class="read-more-link" href="{{ base_path }}/impact/baang/" aria-label="Read more about Baang during Covid-19">Read more</a></div>
 </article>
+
+<article class="impact-project">
+<h2 class="project-title"><a href="{{ base_path }}/impact/community-tech-workers/">Community Tech Workers</a></h2>
+<div class="project-meta">Southeast Michigan · NSF CTW project, 2021&ndash;2025 · Co-principal investigator · Scam prevention research · Google Academic Research Award, 2025 · Principal investigator</div>
+<p class="project-intro">Training trusted neighbors to help families use online services. The program trained 41 Community Tech Workers across Detroit and Afghan communities in Southeast Michigan, with subsequent work on AI training and scam prevention.</p>
+<div class="read-more-wrap"><a class="read-more-link" href="{{ base_path }}/impact/community-tech-workers/" aria-label="Read more about Community Tech Workers">Read more</a></div>
+</article>
