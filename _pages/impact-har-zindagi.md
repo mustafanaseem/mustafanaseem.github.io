@@ -15,15 +15,15 @@ author_profile: true
 
 <p class="project-intro">Har Zindagi ("Every Life Matters") began with a design contest. In 2013 the Gates Foundation invited redesigns of the home-based child health record, the card a family keeps through six vaccination visits and a vaccinator reads at each one. Our team at Information Technology University entered a bright yellow, laminated booklet that showed the next-visit date through a slit in its closed cover and used carbonless copies to carry each visit into a digital record. When the Sub-National Governance Programme (SNG, a DFID grantee) funded us to build the idea out, I led the Har Zindagi team in partnership with Punjab's Expanded Program on Immunization, pairing a card shaped by what families and vaccinators told us with an Android app that vaccinators used to create digital records in the field. Two Gates Foundation grants later led me to ask a harder question: whether the data such a system produces can be trusted.</p>
 
-<div class="stat-block">
-  <div class="stat-label">Seven-month pilot in Sahiwal and Sheikhupura; the Government of Punjab later adopted the card design and printed millions each year</div>
-  <div class="stat-headline">25,000 cards printed &middot; 20,000 children vaccinated &middot; 90,000 visits</div>
-</div>
-
 <figure class="project-figure">
   <img src="{{ base_path }}/images/harzindagi.png" alt="Photograph of the redesigned Har Zindagi immunization booklet, open to the six-week visit. The left page shows date-of-visit fields for OPV-1, Penta-1, PCV 10-1, and Rotavirus-1, each color coded and paired with an icon of the body system the vaccine protects. The right page marks the child's developmental stage in Urdu ('6-week-old child') and illustrates three milestones with pictorial captions." />
   <figcaption>The deployed immunization booklet, open to the six-week visit. Each vaccine row carries a distinct color and an icon of the body system it protects; the facing page marks the child's developmental stage. Photograph from the project team.</figcaption>
 </figure>
+
+<div class="stat-block">
+  <div class="stat-label">Seven-month pilot in Sahiwal and Sheikhupura; the Government of Punjab later adopted the card design and printed millions each year</div>
+  <div class="stat-headline">25,000 cards printed &middot; 20,000 children vaccinated &middot; 90,000 visits</div>
+</div>
 
 <div class="project-body">
 

@@ -15,17 +15,17 @@ author_profile: true
 
 <p class="project-intro">In Pakistan a pregnant woman's care runs through her husband: in our survey of 199 expectant couples in rural Punjab, 85 percent of husbands took part in decisions about their wife's healthcare, yet only 56 percent had ever sought out information on maternal health. Super Abbu ("Super Dad") is a hotline that lets a man with any phone, and no need for literacy or internet, record a question for a doctor, hear the answer in private, and listen to other fathers' questions and stories. It began as a student team's idea at a design summit I organized in 2016 and grew, over four grants, into a service that has reached more than 27,000 men in Urdu and Pashto. I have been part of it at every stage.</p>
 
-<div class="stat-block">
-  <div class="stat-label">Urdu service 2018 and Pashto service 2023&ndash;2024</div>
-  <div class="stat-headline">27,700 fathers &middot; 67,000 calls &middot; 3,784 questions answered by doctors</div>
-</div>
-
 <figure class="project-figure">
   <div class="video-embed">
     <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2319115705080021&amp;show_text=false&amp;t=0" title="BBC Urdu report on Super Abbu" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
   </div>
   <figcaption>BBC Urdu's report on Super Abbu, in Urdu.</figcaption>
 </figure>
+
+<div class="stat-block">
+  <div class="stat-label">Urdu service 2018 and Pashto service 2023&ndash;2024</div>
+  <div class="stat-headline">27,700 fathers &middot; 67,000 calls &middot; 3,784 questions answered by doctors</div>
+</div>
 
 <div class="project-body">
 
