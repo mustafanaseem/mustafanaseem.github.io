@@ -15,17 +15,17 @@ author_profile: true
 
 <p class="project-intro">Many families in Lahore collect their drinking water from public filtration plants: neighborhood taps run by the city's water utility, WASA Lahore, where the water is free and carried home in jerry cans. A utility that can see each plant at work can keep the water flowing, fix a leaking tap the day it starts, and plan where the next plant should go. Together with Dr. Tauseef Tauqeer at Information Technology University, Lahore, I co-led a three-year project to build a low-cost sensing unit that gives the utility that view, and to pair the engineering with fieldwork on how low-income residents of Lahore get their water.</p>
 
-<div class="stat-block">
-  <div class="stat-label">Six WASA Lahore filtration plants, October 2019 to March 2020</div>
-  <div class="stat-headline">42,000 transactions &middot; 1.28 million liters &middot; 6 plants</div>
-</div>
-
 <figure class="project-figure">
   <div class="video-embed">
     <iframe src="https://www.youtube.com/embed/TSojzm678kM" title="Water ATMs, a five-minute documentary by Haya Fatima Iqbal" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
   </div>
   <figcaption>A five-minute film about the project by documentary filmmaker Haya Fatima Iqbal. It follows residents collecting water at Lahore's filtration plants and includes conversations with Dr. Tauseef Tauqeer, WASA Lahore managing director Zahid Aziz, and me.</figcaption>
 </figure>
+
+<div class="stat-block">
+  <div class="stat-label">Six WASA Lahore filtration plants, October 2019 to March 2020</div>
+  <div class="stat-headline">42,000 transactions &middot; 1.28 million liters &middot; 6 plants</div>
+</div>
 
 <div class="project-body">
 

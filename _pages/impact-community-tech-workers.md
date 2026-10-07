@@ -18,15 +18,15 @@ description: "Community Tech Workers help families use online services in Southe
 
 <p class="project-intro">Community Tech Workers (CTWs) are trusted neighbors trained and paid to help families use online services. Drawing on the community health worker model, they help people apply for rental assistance, book medical appointments, and answer letters in English.</p>
 
+<figure class="project-figure">
+  <img src="{{ base_path }}/images/ctw-workshop.jpg" alt="A group of participants gathered around a long conference table during a workshop. A tall structure of spaghetti sticks and marshmallows rises from the center of the table. A monitor behind the group displays a Zoom login screen; tall windows on the left show a lawn and trees outside." />
+</figure>
+
 <p class="project-intro">A $1.42 million NSF grant supported our team at the University of Michigan in developing and testing the model with a Detroit public housing community and Afghan families resettled in Washtenaw County. I led the Afghan site, initially in partnership with Jewish Family Services of Washtenaw County and later independently.</p>
 
 <div class="stat-block">
   <div class="stat-headline">41 Community Tech Workers trained &middot; 25 in Detroit &middot; 16 in the Afghan community</div>
 </div>
-
-<figure class="project-figure">
-  <img src="{{ base_path }}/images/ctw-workshop.jpg" alt="A group of participants gathered around a long conference table during a workshop. A tall structure of spaghetti sticks and marshmallows rises from the center of the table. A monitor behind the group displays a Zoom login screen; tall windows on the left show a lawn and trees outside." />
-</figure>
 
 <div class="project-body">
 

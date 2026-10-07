@@ -15,15 +15,15 @@ author_profile: true
 
 <p class="project-intro">When Covid-19 reached Pakistan in March 2020, the people least likely to see a government advisory were those without internet, without literacy, and without much reason to trust official sources. <a href="https://dl.acm.org/doi/abs/10.1145/3173574.3174217" target="_blank" rel="noopener">Baang</a> is a voice-based social network, built by Agha Ali Raza's lab, that people use over an ordinary phone call to record and hear each other's posts. On April 2, 2020, Ali, Arman Rezaee, Sarojini Hirshleifer, and I, who were already collaborating on the Super Abbu evaluation, relaunched Baang as a channel for reliable Covid information. Over six months it took half a million calls from 12,000 people across Pakistan, who listened to official guidance, argued with it, shared it with friends, and told the government what they thought of its lockdowns.</p>
 
-<div class="stat-block">
-  <div class="stat-label">Baang during Covid-19, April to October 2020</div>
-  <div class="stat-headline">500,000 calls &middot; 12,000 users &middot; 6 months</div>
-</div>
-
 <figure class="project-figure">
   <img src="{{ base_path }}/images/SuperAbbuPicture1.jpg" alt="A father in a white shalwar kameez speaks on a mobile phone, seated on the grass beside his wife and young son, in Lahore." />
   <figcaption>A phone call reaches the whole family. A father takes a call in Lahore while his wife and son look on. Photograph by Abdullah Kharal.</figcaption>
 </figure>
+
+<div class="stat-block">
+  <div class="stat-label">Baang during Covid-19, April to October 2020</div>
+  <div class="stat-headline">500,000 calls &middot; 12,000 users &middot; 6 months</div>
+</div>
 
 <div class="project-body">
 
