@@ -24,6 +24,10 @@ description: "Community Tech Workers help families use online services in Southe
   <div class="stat-headline">41 Community Tech Workers trained &middot; 25 in Detroit &middot; 16 in the Afghan community</div>
 </div>
 
+<figure class="project-figure">
+  <img src="{{ base_path }}/images/ctw-workshop.jpg" alt="A group of participants gathered around a long conference table during a workshop. A tall structure of spaghetti sticks and marshmallows rises from the center of the table. A monitor behind the group displays a Zoom login screen; tall windows on the left show a lawn and trees outside." />
+</figure>
+
 <div class="project-body">
 
 <h3 class="project-h3">Working with Afghan families</h3>
