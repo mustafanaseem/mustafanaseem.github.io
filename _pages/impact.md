@@ -49,3 +49,11 @@ author_profile: true
 <p class="project-intro">Training trusted neighbors to help families use online services. The program trained 41 Community Tech Workers across Detroit and Afghan communities in Southeast Michigan, with subsequent work on AI training and scam prevention.</p>
 <div class="read-more-wrap"><a class="read-more-link" href="{{ base_path }}/impact/community-tech-workers/" aria-label="Read more about Community Tech Workers">Read more</a></div>
 </article>
+
+<article class="impact-project">
+<div class="project-thumb"><img src="{{ base_path }}/images/tfgbv-codesign-workshop.jpg" alt="" /></div>
+<h2 class="project-title"><a href="{{ base_path }}/impact/tfgbv/">Technology-Facilitated Gender-Based Violence</a></h2>
+<div class="project-meta">Karachi, Pakistan · 2024&ndash;2027 · Principal investigator · Funded by the University of Michigan Center for Global Health Equity</div>
+<p class="project-intro">Research with university students in Pakistan on digital abuse and barriers to seeking help, informing the development of prevention and support with students and local partners.</p>
+<div class="read-more-wrap"><a class="read-more-link" href="{{ base_path }}/impact/tfgbv/" aria-label="Read more about Technology-Facilitated Gender-Based Violence">Read more</a></div>
+</article>
