@@ -29,9 +29,11 @@ author_profile: true
 </style>
 
 <div class="about-section">
-<p>I design AI systems for marginalized communities and study how those systems behave, fail, and get misused once deployed. My fieldwork spans seventeen years across Ghana, Tanzania, Botswana, South Africa, Pakistan, Kenya, and the United States, and organizes around three threads. The first studies how AI systems enable new forms of harm against people who are already marginalized: how scammers target Afghan refugees, how non-consensual image abuse operates differently in honor-based cultures than Western platform policies assume, and how frontline workers in government health systems are forced to falsify the data that AI tools depend on. The second designs and evaluates AI systems for health and high-stakes contexts, including speech-based health services for low-literate parents in Pakistan and culturally-grounded empathy benchmarks for health LLMs. The third builds and measures community digital capacity <em>with</em> marginalized populations rather than <em>for</em> them. I am a Clinical Associate Professor at the University of Michigan School of Information, with over $3.5M in research grants as PI or Co-PI from Gates, NSF, NIH, DFID, Google, UNICEF, and USAID.</p>
+<p>I’m a Clinical Associate Professor at the University of Michigan School of Information. My research examines how technology can address information inequality in healthcare and digital safety, particularly among low-literate populations, women in patriarchal societies, and refugee communities.</p>
 
-<p>My research has been published at ACM CHI, CSCW, and the Web Conference, and recognized with a CHI Best Paper Honorable Mention and a CSCW Diversity &amp; Inclusion Award. I hold a PhD in Design Science from the University of Michigan and an MS from the University of Colorado Boulder, where I was a Fulbright Scholar.</p>
+<p>Combining qualitative research, participatory design, and randomized experiments, I develop and evaluate systems with communities and public institutions in Pakistan and the United States. My work spans voice-based health services, immunization systems, technology-facilitated gender-based violence, and community responses to online scams. Several of these projects have reached tens of thousands of people or produced designs adopted by government.</p>
+
+<p>My research has received support from NSF, NIH, the Gates Foundation, USAID, UNICEF, and Google. I hold a PhD in Design Science from the University of Michigan and a master’s degree from the University of Colorado Boulder, where I was a Fulbright Scholar.</p>
 </div>
 
 <div class="about-section">
