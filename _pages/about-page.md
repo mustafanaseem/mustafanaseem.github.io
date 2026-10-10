@@ -149,7 +149,7 @@ redirect_from:
 <p>The summits I helped organize brought together people from more than 20 countries, aged 17 to 82, with education ranging from unfinished secondary school to postdoctoral research. Facilitating these collaborations shaped my approach to co-design: adapting activities to different languages and literacy levels, addressing how gender and status affect whose ideas are heard, and sharing design decisions while respecting individual dignity and cultural context. These methodological concerns also inform our <a href="https://mustafanaseem.com/files/compass2022_powerdifferentials-4.pdf" target="_blank" rel="noopener">research on power differentials and cultural differences in co-design</a>, which examines both the strategies facilitators use and the limits of what a workshop can change.</p>
 
 <figure class="about-figure">
-  <img src="{{ base_path }}/images/about-amy-smith.jpg" alt="Mustafa Naseem with Amy Smith at an IDDS event. [Image awaiting upload.]" loading="lazy" />
+  <img src="{{ base_path }}/images/about-amy-smith.jpg" alt="Amy Smith at an outdoor market, holding a pineapple and talking with colleagues, including Mustafa Naseem." loading="lazy" />
   <figcaption>With Amy Smith, IDDS co-founder, MIT D-Lab founding director, and a longtime mentor and close friend.</figcaption>
 </figure>
 
@@ -164,18 +164,18 @@ redirect_from:
 <p>I later returned to Colorado Boulder, where I had completed my master's as a Fulbright Scholar, as ICTD Expert-in-Residence. There, I helped run the master's program through recruitment, advising, and course planning. I joined Michigan in 2018, have served on the dean's advisory committee, and completed my PhD in Design Science in 2025. My <a href="https://mustafanaseem.com/files/Mustafa%20Naseem%20CV_Dec25.pdf" target="_blank" rel="noopener">CV</a> has the fuller record of research, teaching, and service.</p>
 
 <figure class="about-figure">
-  <img src="{{ base_path }}/images/about-white-house.jpg" alt="Mustafa Naseem with colleagues from the maker community at the White House. [Image awaiting upload.]" loading="lazy" />
+  <img src="{{ base_path }}/images/about-white-house.jpg" alt="Mustafa Naseem with four colleagues from the maker community, posing for a group photograph at the White House." loading="lazy" />
   <figcaption>At the White House with colleagues from the maker community.</figcaption>
 </figure>
 
 <figure class="about-figure">
-  <img src="{{ base_path }}/images/about-wtis-2015.jpg" alt="Mustafa Naseem speaking at WTIS 2015 in Hiroshima. [Image awaiting upload.]" loading="lazy" />
+  <img src="{{ base_path }}/images/about-wtis-2015.jpg" alt="Formal group photograph of delegates to the 13th World Telecommunication/ICT Indicators Symposium in Hiroshima, Japan, 2015." loading="lazy" />
   <figcaption>Representing Pakistan at WTIS 2015 in Hiroshima, Japan. <a href="https://www.itu.int/en/ITU-D/Statistics/pages/events/wtis2015/biography.aspx" target="_blank" rel="noopener">Speaker biography</a>.</figcaption>
 </figure>
 
 <figure class="about-figure">
-  <img src="{{ base_path }}/images/about-rolex-awards.jpg" alt="Mustafa Naseem at the 2016 Rolex Awards for Enterprise ceremony. [Image awaiting upload.]" loading="lazy" />
-  <figcaption>At the 2016 Rolex Awards for Enterprise as one of 12 Young Laureate finalists.</figcaption>
+  <img src="{{ base_path }}/images/about-republica.jpg" alt="Mustafa Naseem with fellow re:publica attendees, grouped for a photograph in front of the re:publica 2015 stage signage in Berlin." loading="lazy" />
+  <figcaption>With fellow speakers and attendees at re:publica 2015 in Berlin.</figcaption>
 </figure>
 
 <h2 class="about-h2">Bio for press and events</h2>
