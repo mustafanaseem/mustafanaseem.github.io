@@ -174,8 +174,8 @@ redirect_from:
 </figure>
 
 <figure class="about-figure">
-  <img src="{{ base_path }}/images/about-republica.jpg" alt="Mustafa Naseem with fellow re:publica attendees, grouped for a photograph in front of the re:publica 2015 stage signage in Berlin." loading="lazy" />
-  <figcaption>With fellow speakers and attendees at re:publica 2015 in Berlin.</figcaption>
+  <img src="{{ base_path }}/images/about-rolex-awards.jpg" alt="Formal group photograph of the 2016 Rolex Young Laureate finalists, posed by a reflecting pool at the Rolex headquarters in Geneva." loading="lazy" />
+  <figcaption>At the 2016 Rolex Awards for Enterprise as one of 12 Young Laureate finalists.</figcaption>
 </figure>
 
 <h2 class="about-h2">Bio for press and events</h2>
