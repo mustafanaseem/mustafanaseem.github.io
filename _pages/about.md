@@ -16,6 +16,17 @@ author_profile: true
     color: #333;
 }
 
+.about-section a {
+    color: #2a7ae2;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+.about-section a:hover {
+    text-decoration-thickness: 2px;
+}
+
 .award {
     margin-bottom: 10px;
     font-size: 15px;
