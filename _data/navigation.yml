@@ -1,7 +1,13 @@
 # main links links
 main:
+  - title: "About"
+    url: /about/
+
   - title: "Research"
     url: /research/
+
+  - title: "Impact"
+    url: /impact/
 
   - title: "Publications"
     url: /publications/
@@ -14,4 +20,3 @@ main:
 
   - title: "Grants"
     url: /grants/
-
