@@ -34,6 +34,8 @@ author_profile: true
 <p>Combining qualitative research, participatory design, and randomized experiments, I develop and evaluate systems with communities and public institutions in Pakistan and the United States. My work spans voice-based health services, immunization systems, technology-facilitated gender-based violence, and community responses to online scams. Several of these projects have reached tens of thousands of people or produced designs adopted by government.</p>
 
 <p>My research has received support from NSF, NIH, the Gates Foundation, USAID, UNICEF, and Google. I hold a PhD in Design Science from the University of Michigan and a master’s degree from the University of Colorado Boulder, where I was a Fulbright Scholar.</p>
+
+<p>Learn more about my background on the <a href="{{ base_path }}/about/">About</a> page, explore my <a href="{{ base_path }}/research/">Research</a>, or see how this work translates into practice on the <a href="{{ base_path }}/impact/">Impact</a> page.</p>
 </div>
 
 <div class="about-section">
